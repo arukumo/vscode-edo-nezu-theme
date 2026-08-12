@@ -1,0 +1,21 @@
+{
+  "name": "edo-nezu-theme",
+  "displayName": "edo-nezu-theme",
+  "description": "A color theme designed for work, eye-friendly.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.125.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Edo Nezu Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Edo Nezu Theme-color-theme.json"
+      }
+    ]
+  }
+}
