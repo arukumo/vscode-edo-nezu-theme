@@ -1,5 +1,5 @@
 node_modules
 *.vsix
-!edo-nezu-theme-0.0.1.vsix
+!edo-nezu-theme-*.vsix
 .env
 scripts/*.json
