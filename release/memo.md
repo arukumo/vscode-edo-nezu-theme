@@ -21,3 +21,13 @@ code --list-extensions | grep -i edo
 # アンインストール
 code --uninstall-extension arukumo.edo-nezu-theme
 ```
+
+## タグの設定
+
+```bash
+# タグの設定
+git tag -a v0.0.1 -m "Release v0.0.1"
+
+# タグの設定をpush
+git push origin v0.0.1
+```

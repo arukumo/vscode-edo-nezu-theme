@@ -17,7 +17,7 @@
     // #88a37b: 老竹（コメント / 引用 / リンク）
     // #d3aeb4: 牡丹鼠（文字列リテラル）
     // #b5c7a3: 裏柳（数値 / 定数）
-    // #d46b7a: 紅梅鼠（見出し / 太字 / Markdownリスト記号）
+    // #bbce91: 山葵色（Markdown 見出し / 太字 / リスト記号）
     // #d6b575: 黄朽葉（CSSクラス / セレクタ / Git変更）
     //
     // --- 3. UIテキスト・境界・補助色 ---
@@ -65,10 +65,10 @@
     "editor.findMatchHighlightBackground": "#c7a25235",
 
     // --- スクロールバー & スライダー ---
-    "scrollbarSlider.background": "#f5f2eb18", // 生成色（半透明）
-    "scrollbarSlider.hoverBackground": "#f5f2eb28", // ホバー時
-    "scrollbarSlider.activeBackground": "#f5f2eb40", // ドラッグ中
-    "scrollbar.shadow": "#00000000", // スクロール時の影を消してフラットに
+    "scrollbarSlider.background": "#f5f2eb18",
+    "scrollbarSlider.hoverBackground": "#f5f2eb28",
+    "scrollbarSlider.activeBackground": "#f5f2eb40",
+    "scrollbar.shadow": "#00000000",
 
     // --- ガター & 行番号 ---
     "editorIndentGuide.background1": "#22190880",
@@ -161,7 +161,7 @@
     "terminal.ansiBrightCyan": "#9dd4cb",
     "terminal.ansiBrightWhite": "#f5f2eb",
 
-    // --- ターミナル コマンド実行マーク
+    // --- ターミナル コマンド実行マーク ---
     "terminalCommandDecoration.defaultBackground": "#8c877d80",
     "terminalCommandDecoration.successBackground": "#88a37b",
     "terminalCommandDecoration.errorBackground": "#df8a96",
@@ -170,7 +170,7 @@
     "terminalOverviewRuler.cursorForeground": "#cfcfcc40",
     "terminalOverviewRuler.findMatchForeground": "#d6b57580",
 
-    // --- ボタン（通知ポップアップ、ログイン、ダイアログ等） ---
+    // --- ボタン ---
     "button.background": "#5b7454",
     "button.foreground": "#fffffc",
     "button.hoverBackground": "#5b7454",
@@ -310,7 +310,7 @@
         "punctuation.definition.list.begin.markdown",
         "markup.list.numbered.bullet.markdown"
       ],
-      "settings": { "foreground": "#d46b7a" } // 紅梅鼠
+      "settings": { "foreground": "#bbce91" } // 山葵色
     },
 
     // --- CSSクラス / タグセレクタ ---
@@ -359,11 +359,11 @@
     // --- 特殊構文（正規表現文字列・エラー・タグ記号） ---
     {
       "scope": "string.regexp",
-      "settings": { "foreground": "#d38e8e" } // 撫子（Git削除色系）
+      "settings": { "foreground": "#d38e8e" } // 撫子
     },
     {
       "scope": "invalid",
-      "settings": { "foreground": "#df8a96" } // 甚三紅（エラー・競合色系）
+      "settings": { "foreground": "#df8a96" } // 甚三紅
     },
     {
       "scope": "punctuation.definition.tag",
