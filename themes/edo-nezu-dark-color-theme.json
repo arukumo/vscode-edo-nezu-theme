@@ -1,0 +1,382 @@
+{
+  "name": "Edo Nezu Dark",
+  "colors": {
+    // =========================================================================
+    // 江戸鼠ダークテーマ 使用色パレット（Edo Nezu Palette）
+    // =========================================================================
+    // --- 1. 背景階層（憲法黒茶ベース） ---
+    // #1a1306: 憲法黒茶（基準エディタ背景）
+    // #1e1607: 涅色/憲法染（サイドバー / タブ / 入力欄）
+    // #150e04: 暗黒色/濡羽黒（アクティビティバー / タブ隙間）
+    // #110c03: 漆黒（タイトルバー）
+    // #2a1f0a: 黒褐（選択ハイライト背景 / ホバー）
+    //
+    // --- 2. 構文・シンタックス主要色 ---
+    // #cfcfcc: 白灰（本文 / キー / タグ / 演算子）
+    // #9dd4cb: 青磁（予約語 / 構文骨格 / 属性）
+    // #88a37b: 老竹（コメント / 引用 / リンク）
+    // #d3aeb4: 牡丹鼠（文字列リテラル）
+    // #b5c7a3: 裏柳（数値 / 定数）
+    // #d46b7a: 紅梅鼠（見出し / 太字 / Markdownリスト記号）
+    // #d6b575: 黄朽葉（CSSクラス / セレクタ / Git変更）
+    //
+    // --- 3. UIテキスト・境界・補助色 ---
+    // #fffffc: 胡粉色（最前面文字 / 選択文字 / ボタン文字）
+    // #f5f2eb: 生成色/鳥の子色（アクティブタブ文字 / 選択ハイライト）
+    // #8c877d: 薄銀鼠/素鼠（非アクティブ文字 / プレースホルダー / タグ記号）
+    // #5a524c: 消炭色/丼鼠（行番号 / ガイド線）
+    // #39342c: 黒鳶/暗黒茶（境界線 / 枠線 / セパレータ）
+    //
+    // --- 4. 状態・アクセント（Git / システム） ---
+    // #5b7454: 苔色/千歳緑（ボタン / バッジ / リモート）
+    // #80503f: 錆茶/弁柄茶（デバッグ中ステータスバー）
+    // #d38e8e: 薄紅梅/撫子色（Git削除 / 正規表現）
+    // #df8a96: 甚三紅（エラー / Git競合）
+    // =========================================================================
+    "foreground": "#cfcfcc", // 白灰
+    "editor.foreground": "#cfcfcc",
+    "statusBar.foreground": "#cfcfcc",
+
+    // --- 背景レイヤー ---
+    "editor.background": "#1a1306", // 憲法黒茶
+    "sideBar.background": "#1e1607",
+    "tab.activeBackground": "#1e1607",
+    "tab.unfocusedActiveBackground": "#1a1306",
+    "tab.inactiveBackground": "#150e04",
+    "tab.unfocusedInactiveBackground": "#110c03",
+    "activityBar.background": "#150e04",
+    "activityBarBadge.background": "#5b7454",
+    "editorGroupHeader.tabsBackground": "#150e04",
+    "titleBar.activeBackground": "#110c03",
+    "statusBar.background": "#1e1607",
+    "statusBar.noFolderBackground": "#1e1607",
+    "statusBar.debuggingBackground": "#80503f",
+    "statusBarItem.remoteBackground": "#5b7454",
+
+    // --- ハイライト & カーソル行 ---
+    "editor.selectionBackground": "#f5f2eb38",
+    "editor.selectionHighlightBackground": "#f5f2eb20",
+    "editor.inactiveSelectionBackground": "#f5f2eb18",
+    "editor.lineHighlightBackground": "#1e160780",
+    "editor.lineHighlightBorder": "#00000000",
+    "editor.wordHighlightBackground": "#f5f2eb1c",
+    "editor.wordHighlightStrongBackground": "#f5f2eb28",
+    "editor.findMatchBackground": "#c7a25270",
+    "editor.findMatchHighlightBackground": "#c7a25235",
+
+    // --- スクロールバー & スライダー ---
+    "scrollbarSlider.background": "#f5f2eb18", // 生成色（半透明）
+    "scrollbarSlider.hoverBackground": "#f5f2eb28", // ホバー時
+    "scrollbarSlider.activeBackground": "#f5f2eb40", // ドラッグ中
+    "scrollbar.shadow": "#00000000", // スクロール時の影を消してフラットに
+
+    // --- ガター & 行番号 ---
+    "editorIndentGuide.background1": "#22190880",
+    "editorIndentGuide.activeBackground1": "#5a524c90",
+    "editorLineNumber.foreground": "#5a524c",
+    "editorLineNumber.activeForeground": "#cfcfcc",
+
+    // --- タブ文字色 ---
+    "tab.activeForeground": "#f5f2eb",
+    "tab.inactiveForeground": "#8c877d",
+
+    // --- UI（メニュー / 入力欄 / ホバー / サジェスト） ---
+    "focusBorder": "#5b7454",
+    "menu.background": "#1e1607",
+    "menu.foreground": "#cfcfcc",
+    "menu.selectionBackground": "#2a1f0a",
+    "menu.selectionForeground": "#fffffc",
+    "menu.separatorBackground": "#39342c",
+    "menu.border": "#39342c80",
+
+    "input.background": "#1e1607",
+    "input.foreground": "#f5f2eb",
+    "input.placeholderForeground": "#8c877d",
+    "input.border": "#39342c",
+    "inputOption.activeBackground": "#5b745480",
+    "inputOption.activeBorder": "#5b7454",
+    "dropdown.background": "#1e1607",
+    "dropdown.foreground": "#f5f2eb",
+    "dropdown.border": "#39342c",
+
+    "editorHoverWidget.background": "#1e1607",
+    "editorHoverWidget.foreground": "#cfcfcc",
+    "editorHoverWidget.border": "#39342c",
+    "editorHoverWidget.statusBarBackground": "#150e04",
+
+    "editorSuggestWidget.background": "#1e1607",
+    "editorSuggestWidget.foreground": "#cfcfcc",
+    "editorSuggestWidget.border": "#39342c",
+    "editorSuggestWidget.selectedBackground": "#2a1f0a",
+    "editorSuggestWidget.selectedForeground": "#fffffc",
+    "editorSuggestWidget.highlightForeground": "#9dd4cb",
+    "editorSuggestWidget.focusHighlightForeground": "#9dd4cb",
+
+    "quickInput.background": "#1e1607",
+    "quickInput.foreground": "#cfcfcc",
+    "quickInputList.focusBackground": "#2a1f0a",
+    "quickInputList.focusForeground": "#fffffc",
+    "pickerGroup.border": "#39342c",
+    "pickerGroup.foreground": "#8c877d",
+
+    "list.hoverBackground": "#22190880",
+    "list.activeSelectionBackground": "#2a1f0a",
+    "list.activeSelectionForeground": "#fffffc",
+    "list.inactiveSelectionBackground": "#221908",
+
+    // --- Git ステータス & ガター差分 ---
+    "gitDecoration.modifiedResourceForeground": "#d6b575",
+    "gitDecoration.untrackedResourceForeground": "#88a37b",
+    "gitDecoration.addedResourceForeground": "#88a37b",
+    "gitDecoration.deletedResourceForeground": "#d38e8e",
+    "gitDecoration.renamedResourceForeground": "#9dd4cb",
+    "gitDecoration.stageModifiedResourceForeground": "#d6b575",
+    "gitDecoration.stageDeletedResourceForeground": "#d38e8e",
+    "gitDecoration.ignoredResourceForeground": "#6b625b",
+    "gitDecoration.conflictingResourceForeground": "#df8a96",
+    "gitDecoration.submoduleResourceForeground": "#9dd4cb",
+    "editorGutter.modifiedBackground": "#d6b575",
+    "editorGutter.addedBackground": "#88a37b",
+    "editorGutter.deletedBackground": "#d38e8e",
+
+    // --- ターミナル ---
+    "terminal.background": "#1a1306",
+    "terminal.foreground": "#cfcfcc",
+    "terminal.selectionBackground": "#39342c80",
+    "terminalCursor.foreground": "#cfcfcc",
+    "terminal.ansiBlack": "#201707",
+    "terminal.ansiRed": "#d38e8e",
+    "terminal.ansiGreen": "#88a37b",
+    "terminal.ansiYellow": "#d6b575",
+    "terminal.ansiBlue": "#9dd4cb",
+    "terminal.ansiMagenta": "#d3aeb4",
+    "terminal.ansiCyan": "#9dd4cb",
+    "terminal.ansiWhite": "#cfcfcc",
+    "terminal.ansiBrightBlack": "#6b625b",
+    "terminal.ansiBrightRed": "#df9f9f",
+    "terminal.ansiBrightGreen": "#a2be94",
+    "terminal.ansiBrightYellow": "#e2c98f",
+    "terminal.ansiBrightBlue": "#9dd4cb",
+    "terminal.ansiBrightMagenta": "#dfbec4",
+    "terminal.ansiBrightCyan": "#9dd4cb",
+    "terminal.ansiBrightWhite": "#f5f2eb",
+
+    // --- ターミナル コマンド実行マーク
+    "terminalCommandDecoration.defaultBackground": "#8c877d80",
+    "terminalCommandDecoration.successBackground": "#88a37b",
+    "terminalCommandDecoration.errorBackground": "#df8a96",
+
+    // --- ターミナルのスクロールバー背後（Overview Ruler） ---
+    "terminalOverviewRuler.cursorForeground": "#cfcfcc40",
+    "terminalOverviewRuler.findMatchForeground": "#d6b57580",
+
+    // --- ボタン（通知ポップアップ、ログイン、ダイアログ等） ---
+    "button.background": "#5b7454",
+    "button.foreground": "#fffffc",
+    "button.hoverBackground": "#5b7454",
+    "button.secondaryBackground": "#2a1f0a",
+    "button.secondaryForeground": "#cfcfcc",
+    "button.secondaryHoverBackground": "#39342c",
+
+    // --- 分割線 & リサイズドラッグライン (Sash / Borders) ---
+    "sash.hoverBorder": "#b8b2b2",
+    "editorGroup.border": "#39342c",
+    "sideBar.border": "#39342c",
+    "panel.border": "#39342c",
+    "terminal.border": "#39342c",
+    "editorGroupHeader.noTabsBackground": "#150e04",
+    "editorGroupHeader.border": "#39342c",
+
+    // --- リンクテキスト ---
+    "textLink.foreground": "#88a37b",
+    "textLink.activeForeground": "#9dd4cb"
+  },
+  "tokenColors": [
+    // --- スタイル装飾（斜体・下線・打消し） ---
+    {
+      "name": "Font Styles (Italic / Underline / Strike)",
+      "scope": ["emphasis", "markup.italic"],
+      "settings": { "fontStyle": "italic" }
+    },
+    {
+      "scope": "strong",
+      "settings": { "fontStyle": "bold" }
+    },
+    {
+      "scope": "markup.underline",
+      "settings": { "fontStyle": "underline" }
+    },
+    {
+      "scope": "markup.strikethrough",
+      "settings": { "fontStyle": "strikethrough" }
+    },
+
+    // --- 予約語・構文骨格・正規表現定数 ---
+    {
+      "name": "Keywords and Built-ins",
+      "scope": [
+        "keyword",
+        "keyword.control",
+        "keyword.operator.new",
+        "keyword.operator.expression",
+        "keyword.operator.cast",
+        "keyword.operator.sizeof",
+        "keyword.operator.alignof",
+        "keyword.operator.typeid",
+        "keyword.operator.alignas",
+        "keyword.operator.instanceof",
+        "keyword.operator.logical.python",
+        "keyword.operator.wordlike",
+        "keyword.operator.noexcept",
+        "storage",
+        "storage.type",
+        "storage.modifier",
+        "constant.language",
+        "constant.regexp",
+        "variable.language",
+        "meta.diff.header",
+        "meta.preprocessor",
+        "entity.name.function.preprocessor",
+        "punctuation.section.embedded.begin.php",
+        "punctuation.section.embedded.end.php",
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end",
+        "punctuation.section.embedded",
+        "markup.changed",
+        "entity.other.attribute-name",
+        "entity.other.attribute-name.html",
+        "entity.other.attribute-name.xml",
+        "entity.other.attribute-name.jsx",
+        "entity.other.attribute-name.tsx",
+        "meta.attribute.html",
+        "meta.structure.dictionary.key.python",
+        "support.type.vendored.property-name",
+        "support.type.property-name",
+        "source.css variable",
+        "source.coffee.embedded",
+        "support.function.git-rebase"
+      ],
+      "settings": { "foreground": "#9dd4cb" } // 青磁
+    },
+
+    // --- コメント・引用 ---
+    {
+      "name": "Comments",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment",
+        "punctuation.definition.quote.begin.markdown"
+      ],
+      "settings": { "foreground": "#88a37b" } // 老竹
+    },
+
+    // --- 文字列リテラル ---
+    {
+      "name": "Strings",
+      "scope": [
+        "string",
+        "string.tag",
+        "string.value",
+        "meta.embedded.assembly",
+        "meta.preprocessor.string",
+        "markup.inline.raw",
+        "markup.deleted"
+      ],
+      "settings": { "foreground": "#d3aeb4" } // 牡丹鼠
+    },
+
+    // --- 数値・定数 ---
+    {
+      "name": "Numbers and Constants",
+      "scope": [
+        "constant.numeric",
+        "variable.other.enummember",
+        "keyword.operator.plus.exponent",
+        "keyword.operator.minus.exponent",
+        "keyword.other.unit",
+        "meta.preprocessor.numeric",
+        "constant.sha.git-rebase",
+        "markup.inserted"
+      ],
+      "settings": { "foreground": "#b5c7a3" } // 裏柳
+    },
+
+    // --- Markdown 太字・見出し・リスト記号 ---
+    {
+      "name": "Markdown Headings, Bold, and List Bullets",
+      "scope": [
+        "markup.bold",
+        "markup.heading",
+        "punctuation.definition.list.begin.markdown",
+        "markup.list.numbered.bullet.markdown"
+      ],
+      "settings": { "foreground": "#d46b7a" } // 紅梅鼠
+    },
+
+    // --- CSSクラス / タグセレクタ ---
+    {
+      "name": "CSS Classes and Tags",
+      "scope": [
+        "entity.name.tag.css",
+        "entity.name.tag.less",
+        "entity.other.attribute-name.id.css",
+        "entity.other.attribute-name.parent-selector.css",
+        "entity.other.attribute-name.parent.less",
+        "source.css entity.other.attribute-name.pseudo-class",
+        "source.css entity.other.attribute-name.pseudo-element.css",
+        "source.css.less entity.other.attribute-name.id",
+        "entity.other.attribute-name.scss",
+        "source.css entity.other.attribute-name.class"
+      ],
+      "settings": { "foreground": "#d6b575" } // 黄朽葉
+    },
+
+    // --- 基本テキスト・データ構造キー・HTMLタグ ---
+    {
+      "name": "Base Text, Keys, and Tags",
+      "scope": [
+        "meta.embedded",
+        "source.groovy.embedded",
+        "string meta.image.inline.markdown",
+        "variable.legacy.builtin.python",
+        "keyword.operator",
+        "meta.template.expression",
+        "storage.modifier.import.java",
+        "variable.language.wildcard.java",
+        "storage.modifier.package.java",
+        "entity.name.tag.html",
+        "entity.name.tag.xml",
+        "entity.name.tag.localname.xml",
+        "source.json support.type.property-name.json",
+        "meta.structure.dictionary.json support.type.property-name.json",
+        "entity.name.tag.yaml",
+        "source.yaml support.type.property-name",
+        "punctuation.support.type.property-name.yaml"
+      ],
+      "settings": { "foreground": "#cfcfcc" } // 白灰
+    },
+
+    // --- 特殊構文（正規表現文字列・エラー・タグ記号） ---
+    {
+      "scope": "string.regexp",
+      "settings": { "foreground": "#d38e8e" } // 撫子（Git削除色系）
+    },
+    {
+      "scope": "invalid",
+      "settings": { "foreground": "#df8a96" } // 甚三紅（エラー・競合色系）
+    },
+    {
+      "scope": "punctuation.definition.tag",
+      "settings": { "foreground": "#8c877d" } // 薄銀鼠
+    }
+  ],
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "newOperator": "#cfcfcc",
+    "stringLiteral": "#d3aeb4",
+    "customLiteral": "#cfcfcc",
+    "numberLiteral": "#b5c7a3",
+    "property": "#9dd4cb",
+    "attribute": "#9dd4cb"
+  }
+}

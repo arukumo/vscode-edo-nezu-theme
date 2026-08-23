@@ -1,0 +1,26 @@
+<!-- タグ名（舛花色）、属性名（青磁色）、属性値/文字列（江戸茶）、エンティティ、CDATA、XML宣言、コメント（老竹色）の確認用 -->
+<?xml version="1.0" encoding="UTF-8"?>
+<theme-configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0.0">
+  <metadata>
+    <name id="edo-nezu">edo-nezu-theme</name>
+    <author>EdoNezu Developer</author>
+    <is-active>true</is-active>
+    <revision count="12" threshold="0.05" />
+  </metadata>
+
+  <palette-group category="四十八茶百鼠">
+    <color id="c-001" role="foreground">
+      <name lang="ja">白鼠</name>
+      <hex>#dcdddd</hex>
+      <rgb r="220" g="221" b="221" />
+      <description><![CDATA[本文および標準識別子のための基準面。ギラつきを抑えた白灰。]]></description>
+    </color>
+
+    <color id="c-002" role="keyword">
+      <name lang="ja">舛花色</name>
+      <hex>#567a98</hex>
+      <rgb r="86" g="122" b="152" />
+      <description><![CDATA[後退色として構文の骨格を支えるスレートブルー。]]></description>
+    </color>
+  </palette-group>
+</theme-configuration>

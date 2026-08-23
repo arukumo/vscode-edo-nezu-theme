@@ -1,0 +1,38 @@
+# YAML: マッピングキー（白銅色/白鼠）、文字列（江戸茶）、数値・浮動小数点、真偽値、配列、アンカー（&）とエイリアス（*）、複数行テキスト（|, >）の確認用
+version: "1.0.0"
+is_production: true
+max_retry_count: 5
+contrast_ratio: 4.5
+
+# アンカーと共通定義
+default_rgb_profile: &default_profile
+  color_space: "sRGB"
+  depth: 8
+  is_calibrated: true
+
+theme_settings:
+  name: "edo-nezu-theme"
+  background: "#181b39" # 勝色（深度の底）
+  profile: *default_profile # エイリアス参照
+
+  # 配列・オブジェクト構造
+  palettes:
+    - id: 1
+      name: "舛花色"
+      hex: "#567a98"
+      tags:
+        - "keyword"
+        - "receding-color"
+        - "blue-nezu"
+    - id: 2
+      name: "老竹色"
+      hex: "#6a8372"
+      tags: ["comment", "neutral-wave"]
+
+  # 複数行リテラル・スカラー
+  description: |
+    波長ごとの結像位置を同一平面上に揃えることで、
+    長時間のタイピングでもピント調節筋（毛様体筋）の迷走を防ぎます。
+  summary: >
+    派手な原色ノイズを排除し、
+    実用性と機能美を極めた普段着のテーマです。

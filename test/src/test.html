@@ -1,0 +1,37 @@
+<!--HTML: タグ（舛花色/スレートブルー）、属性名（青磁色）、属性値/文字列（江戸茶）、エンティティ、埋め込みコードの確認用 -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>江戸鼠テーマ検証ページ &mdash; Edo Nezu</title>
+  <!-- コメント（老竹色）のピント確認 -->
+  <link rel="stylesheet" href="./styles.css" type="text/css">
+  <style>
+    :root {
+      --edo-base: #1a1a1a;
+      --edo-text: #cfd1ce;
+    }
+  </style>
+</head>
+<body class="theme-preview" data-loaded="true">
+  <header id="main-header">
+    <h1 class="title">配色設計 <span>Typography</span></h1>
+    <nav aria-label="Breadcrumb">
+      <ul>
+        <li><a href="https://example.com/edo-nezu" target="_blank" rel="noopener">ホーム</a></li>
+        <li><a href="#details">詳細仕様</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="details" class="card-container">
+      <h2>主要トークン一覧</h2>
+      <p>色彩の波長を揃えることで、長時間のタイピングでも<strong>毛様体筋の疲労</strong>を防ぎます。</p>
+      <input type="text" name="search" placeholder="色名・HEX値を検索..." value="#567a98" disabled>
+      <button type="submit" class="btn btn-primary" onclick="alert('クリックされました')">確定</button>
+    </section>
+  </main>
+</body>
+</html>

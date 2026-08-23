@@ -1,0 +1,46 @@
+/* セレクタ、擬似クラス、CSSカスタムプロパティ、数値・単位（px, rem, %）、カラーコード、関数（calc, rgba）の確認用 */
+@charset "UTF-8";
+
+/**
+ * 江戸伝統色 - スタイルシート検証用
+ */
+:root {
+  --bg-dark: #181b39;       /* 勝色 */
+  --text-main: #cfd1ce;     /* 白銅色 */
+  --keyword-blue: #567a98;  /* 舛花色 */
+  --string-brown: #cd8c5c;  /* 江戸茶 */
+  --line-height-base: 1.618;
+}
+
+/* クラスセレクタ・擬似クラス・属性セレクタ */
+.theme-preview[data-loaded="true"] > header#main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 24px;
+  background-color: rgba(24, 27, 57, 0.95);
+  border-bottom: 1px solid rgba(207, 209, 206, 0.15);
+  box-sizing: border-box;
+}
+
+.title span {
+  font-size: 0.85em;
+  font-weight: 600;
+  color: var(--keyword-blue);
+  letter-spacing: 0.05em;
+}
+
+/* 擬似要素・トランジション・計算式 */
+.btn-primary:not(:disabled):hover {
+  background-color: var(--string-brown);
+  transform: translateY(calc(-2px * 1.5));
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+}
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    width: 100% !important;
+    padding: 10px;
+  }
+}

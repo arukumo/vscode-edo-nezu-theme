@@ -1,0 +1,132 @@
+"type","name","scope","settings.fontStyle","settings.foreground"
+"theme","Edo Nezu Light","","",""
+"color","","editor.background","","#263238"
+"color","","editor.foreground","","#eeffff"
+"color","","activityBarBadge.background","","#007acc"
+"color","","sideBarTitle.foreground","","#bbbbbb"
+"tokenColor","Comment","comment
+punctuation.definition.comment","italic","#546E7A"
+"tokenColor","Variables","variable
+string constant.other.placeholder","","#EEFFFF"
+"tokenColor","Colors","constant.other.color","","#ffffff"
+"tokenColor","Invalid","invalid
+invalid.illegal","","#FF5370"
+"tokenColor","Keyword, Storage","keyword
+storage.type
+storage.modifier","","#C792EA"
+"tokenColor","Operator, Misc","keyword.control
+constant.other.color
+punctuation
+meta.tag
+punctuation.definition.tag
+punctuation.separator.inheritance.php
+punctuation.definition.tag.html
+punctuation.definition.tag.begin.html
+punctuation.definition.tag.end.html
+punctuation.section.embedded
+keyword.other.template
+keyword.other.substitution","","#89DDFF"
+"tokenColor","Tag","entity.name.tag
+meta.tag.sgml
+markup.deleted.git_gutter","","#f07178"
+"tokenColor","Function, Special Method","entity.name.function
+meta.function-call
+variable.function
+support.function
+keyword.other.special-method","","#82AAFF"
+"tokenColor","Block Level Variables","meta.block variable.other","","#f07178"
+"tokenColor","Other Variable, String Link","support.other.variable
+string.other.link","","#f07178"
+"tokenColor","Number, Constant, Function Argument, Tag Attribute, Embedded","constant.numeric
+constant.language
+support.constant
+constant.character
+constant.escape
+variable.parameter
+keyword.other.unit
+keyword.other","","#F78C6C"
+"tokenColor","String, Symbols, Inherited Class, Markup Heading","string
+constant.other.symbol
+constant.other.key
+entity.other.inherited-class
+markup.heading
+markup.inserted.git_gutter
+meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js","","#C3E88D"
+"tokenColor","Class, Support","entity.name
+support.type
+support.class
+support.other.namespace.use.php
+meta.use.php
+support.other.namespace.php
+markup.changed.git_gutter
+support.type.sys-types","","#FFCB6B"
+"tokenColor","Entity Types","support.type","","#B2CCD6"
+"tokenColor","CSS Class and Support","source.css support.type.property-name
+source.sass support.type.property-name
+source.scss support.type.property-name
+source.less support.type.property-name
+source.stylus support.type.property-name
+source.postcss support.type.property-name","","#B2CCD6"
+"tokenColor","Sub-methods","entity.name.module.js
+variable.import.parameter.js
+variable.other.class.js","","#FF5370"
+"tokenColor","Language methods","variable.language","italic","#FF5370"
+"tokenColor","entity.name.method.js","entity.name.method.js","italic","#82AAFF"
+"tokenColor","meta.method.js","meta.class-method.js entity.name.function.js
+variable.function.constructor","","#82AAFF"
+"tokenColor","Attributes","entity.other.attribute-name","","#C792EA"
+"tokenColor","HTML Attributes","text.html.basic entity.other.attribute-name.html
+text.html.basic entity.other.attribute-name","italic","#FFCB6B"
+"tokenColor","CSS Classes","entity.other.attribute-name.class","","#FFCB6B"
+"tokenColor","CSS ID's","source.sass keyword.control","","#82AAFF"
+"tokenColor","Inserted","markup.inserted","","#C3E88D"
+"tokenColor","Deleted","markup.deleted","","#FF5370"
+"tokenColor","Changed","markup.changed","","#C792EA"
+"tokenColor","Regular Expressions","string.regexp","","#89DDFF"
+"tokenColor","Escape Characters","constant.character.escape","","#89DDFF"
+"tokenColor","URL","*url*
+*link*
+*uri*","underline",""
+"tokenColor","Decorators","tag.decorator.js entity.name.tag.js
+tag.decorator.js punctuation.definition.tag.js","italic","#82AAFF"
+"tokenColor","ES7 Bind Operator","source.js constant.other.object.key.js string.unquoted.label.js","italic","#FF5370"
+"tokenColor","JSON Key - Level 0","source.json meta.structure.dictionary.json support.type.property-name.json","","#C792EA"
+"tokenColor","JSON Key - Level 1","source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json","","#FFCB6B"
+"tokenColor","JSON Key - Level 2","source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json","","#F78C6C"
+"tokenColor","JSON Key - Level 3","source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json","","#FF5370"
+"tokenColor","JSON Key - Level 4","source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json","","#C17E70"
+"tokenColor","JSON Key - Level 5","source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json","","#82AAFF"
+"tokenColor","JSON Key - Level 6","source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json","","#f07178"
+"tokenColor","JSON Key - Level 7","source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json","","#C792EA"
+"tokenColor","JSON Key - Level 8","source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json","","#C3E88D"
+"tokenColor","Markdown - Plain","text.html.markdown
+punctuation.definition.list_item.markdown","","#EEFFFF"
+"tokenColor","Markdown - Markup Raw Inline","text.html.markdown markup.inline.raw.markdown","","#C792EA"
+"tokenColor","Markdown - Markup Raw Inline Punctuation","text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown","","#65737E"
+"tokenColor","Markdown - Heading","markdown.heading
+markup.heading | markup.heading entity.name
+markup.heading.markdown punctuation.definition.heading.markdown","","#C3E88D"
+"tokenColor","Markup - Italic","markup.italic","italic","#f07178"
+"tokenColor","Markup - Bold","markup.bold
+markup.bold string","bold","#f07178"
+"tokenColor","Markup - Bold-Italic","markup.bold markup.italic
+markup.italic markup.bold
+markup.quote markup.bold
+markup.bold markup.italic string
+markup.italic markup.bold string
+markup.quote markup.bold string","bold","#f07178"
+"tokenColor","Markup - Underline","markup.underline","underline","#F78C6C"
+"tokenColor","Markdown - Blockquote","markup.quote punctuation.definition.blockquote.markdown","","#65737E"
+"tokenColor","Markup - Quote","markup.quote","italic",""
+"tokenColor","Markdown - Link","string.other.link.title.markdown","","#82AAFF"
+"tokenColor","Markdown - Link Description","string.other.link.description.title.markdown","","#C792EA"
+"tokenColor","Markdown - Link Anchor","constant.other.reference.link.markdown","","#FFCB6B"
+"tokenColor","Markup - Raw Block","markup.raw.block","","#C792EA"
+"tokenColor","Markdown - Raw Block Fenced","markup.raw.block.fenced.markdown","","#00000050"
+"tokenColor","Markdown - Fenced Bode Block","punctuation.definition.fenced.markdown","","#00000050"
+"tokenColor","Markdown - Fenced Bode Block Variable","markup.raw.block.fenced.markdown
+variable.language.fenced.markdown
+punctuation.section.class.end","","#EEFFFF"
+"tokenColor","Markdown - Fenced Language","variable.language.fenced.markdown","","#65737E"
+"tokenColor","Markdown - Separator","meta.separator","bold","#65737E"
+"tokenColor","Markup - Table","markup.table","","#EEFFFF"

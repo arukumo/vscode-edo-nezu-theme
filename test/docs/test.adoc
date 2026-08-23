@@ -1,0 +1,30 @@
+= 江戸伝統色テーマ仕様書: edo-nezu-theme
+作者名 <developer@example.com>
+v1.0.0, 2026-08-22
+:doctype: book
+:toc: left
+:icons: font
+:source-highlighter: highlight.js
+
+[abstract]
+本仕様書は、視覚工学および江戸の伝統色（四十八茶百鼠）に基づくVS Codeテーマの構文定義書です。
+見出し（=）、属性定義（:key:）、アンカー、アドモニション（TIP:, NOTE:）、ソースコードブロックの確認用
+
+== 色彩階層の基本原則
+
+.主要トークンと役割
+[cols="2,2,3", options="header"]
+|===
+| 色名 | HEX | 主な適用先
+| 白鼠 | `#dcdddd` | 本文、標準テキスト
+| 舛花色 | `#567a98` | 予約語、制御構文
+| 江戸茶 | `#cd8c5c` | 文字列、リテラル
+|===
+
+TIP: 波長が揃った色を採用することで、長時間の閲覧でも毛様体筋の緊張を防ぎます。
+
+[source,typescript]
+----
+const themeStatus: string = "active";
+console.log(`Status: ${themeStatus}`);
+----
