@@ -1,7 +1,19 @@
-.vscode/**
-.vscode-test/**
+.env
+.env.*
 .gitignore
+.gitattributes
 vsc-extension-quickstart.md
-scripts/**
+deploy-local.sh
+
+.git/**
+.vscode/**
+assets/**
+bkup/**
 release/**
-assets/icons/**
+scripts/**
+test/**
+
+# imagesフォルダ内は公開に必要な画像のみを含める
+images/*
+!images/icon.png
+!images/edo-nezu-dark.png

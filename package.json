@@ -2,8 +2,17 @@
   "name": "edo-nezu-theme",
   "displayName": "Edo Nezu Theme",
   "description": "A color theme designed for work, eye-friendly.",
+  "keywords": [
+    "readable",
+    "readability",
+    "eye-friendly",
+    "calm",
+    "grayish",
+    "japanese"
+  ],
   "version": "0.0.1",
   "publisher": "arukumo",
+  "icon": "images/icon.png",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -13,7 +22,7 @@
     "url": "https://buymeacoffee.com/arukumo"
   },
   "engines": {
-    "vscode": "^1.125.0"
+    "vscode": "^1.80.0"
   },
   "categories": [
     "Themes"
@@ -24,11 +33,6 @@
         "label": "Edo Nezu Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/edo-nezu-dark-color-theme.json"
-      },
-      {
-        "label": "Edo Nezu Light",
-        "uiTheme": "vs",
-        "path": "./themes/edo-nezu-light-color-theme.json"
       }
     ]
   }

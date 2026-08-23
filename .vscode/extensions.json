@@ -1,9 +1,9 @@
 {
   "recommendations": [
-    "naumovs.color-highlight",
-    "miguelsolorio.theme-check",
     "esbenp.prettier-vscode",
     "davidanson.vscode-markdownlint",
-    "timonwong.shellcheck"
+    "timonwong.shellcheck",
+    "azat-io.vscode-gruvbox-icon-theme",
+    "PKief.material-icon-theme"
   ]
 }

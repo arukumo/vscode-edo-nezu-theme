@@ -1,85 +1,57 @@
-# Edo Nezu Theme [WIP]
+# Edo Nezu Themes
 
-Calm and colorful Visual Studio Code themes for long hours of development.
+Visual Studio Code themes designed for long hours of comfortable development.
 
-## Status
+---
 
-This project is a work in progress. The colors, syntax highlighting, and
-Workbench appearance may change while the theme is being developed.
+🌸 Japanese note  
+日本の伝統色を使用して作成したカラーテーマです。目に優しく、長時間作業していても疲れない配色を目指しています。
 
-## Concept
+---
 
-Edo Nezu Theme is inspired by the restrained color culture associated with
-the Edo period in Japan.
+## 💡 Concept
 
-The expression "Shijuhaccha Hyakunezumi" refers to the many nuanced
-variations of brown and gray appreciated in that period. This theme takes
-that idea as inspiration rather than treating it as a fixed color palette.
+- **Easy on the eyes**: Harsh blue and high-glare hues are toned down.
+- **Minimal palette**: Carefully limited color count to reduce visual noise.
+- **Traditional Japanese colors**: Built upon muted, grayish tones (chosen from Edo-nezu and Japanese traditional colors).
+- **Functional contrast**: Preserves clear syntax hierarchy and practical readability.
+- **Everyday comfort**: Designed not like flashy luxury wear, but like comfortable casual wear for daily work.
 
-The goal is not to remove color from code. Edo Nezu Theme preserves colorful
-syntax highlighting and useful contrast while reducing unnecessary visual
-decoration and overly stimulating tones.
+## 🎨 Themes
 
-It is intended for people who spend long hours working at a computer: less
-like formal wear for a special occasion, and more like familiar workwear for
-everyday development.
-
-## Themes
-
-This extension currently includes the following themes:
+This extension is a work in progress (WIP) with colors still being actively tuned.  
+A Light theme will be added in an upcoming release.
 
 - **Edo Nezu Dark**
-- **Edo Nezu Light**
+- **Edo Nezu Light** `[Planned]`
 
-The Dark and Light themes currently share the same color definitions while
-the palette is being developed.
+## 📷 Screenshot
 
-## Installation
+### Edo Nezu Dark
 
-The extension is under development and is not yet available as a finished
-Marketplace release.
+![Edo Nezu Dark](images/edo-nezu-dark.png)
 
-For local development:
+## 📜 What is "Edo-nezumi"?
 
-1. Open this repository in Visual Studio Code.
-2. Press `F5` to launch an Extension Development Host window.
-3. Open the Color Theme picker with `Ctrl+K Ctrl+T`.
-4. Select **Edo Nezu Dark** or **Edo Nezu Light**.
+"Edo-nezu" (江戸鼠, meaning Edo grayish) is a traditional Japanese color characterized by warm brown or gray tones.
 
-## Development
+In the late 18th century (during the Edo period), the Tokugawa shogunate issued strict sumptuary laws prohibiting commoners from wearing vivid, opulent colors such as deep red and purple. Restricted to using only subdued tones like brown and gray, the townspeople of Edo exercised great ingenuity, creating hundreds of delicate and subtle shades. This aesthetic sensibility became known as "Shijūhatcha-hyakunezu" (四十八茶百鼠, meaning a vast variety of brown and gray colors), symbolizing the rich variety and nuance found within these colors.
 
-Theme definitions are stored in [`themes/`](themes/). The color palette can
-be exported to CSV for review and editing in Excel.
+Edo-nezumi gained immense popularity as a symbol of "_iki_"—a refined, understated style born from the ability to elevate strict constraints into a creative aesthetic.
 
-```bash
-./scripts/json2csv.sh dark
-```
+## 🕒 Changelog
 
-After editing the CSV, generate a review JSON without overwriting the theme
-definition:
+See [CHANGELOG.md](CHANGELOG.md) for detailed release notes and version history.
 
-```bash
-./scripts/csv2json.sh dark
-```
-
-Compare the generated JSON with the theme definition, then apply the desired
-changes to `themes/` manually after reviewing the diff. See
-[`scripts/README.md`](scripts/README.md) for details.
-
-## Screenshots
-
-Screenshots will be added after the palette and Workbench appearance have
-been finalized.
-
-## License
+## ⚖️ License
 
 This project is licensed under the [MIT License](LICENSE).  
 Copyright (c) 2026 arukumo.
 
 ---
 
-## Support
+## ☕ Support
 
-If you find this extension helpful, a coffee would be greatly appreciated! ☕
+I would greatly appreciate your support in the form of a coffee.
 
 <a href="https://www.buymeacoffee.com/arukumo"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" width="150"></a>

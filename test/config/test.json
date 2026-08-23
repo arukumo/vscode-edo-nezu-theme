@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "edo-nezu-theme",
+  "version": "1.0.0",
+  "private": true,
+  "description": "江戸の伝統色（四十八茶百鼠）に基づく光学・認知工学最適化VS Codeテーマ",
+  "metrics": {
+    "targetLuminance": 0.85,
+    "contrastRatio": 7.12,
+    "colorCount": 242,
+    "sampleExpValue": 1.05e-3
+  },
+  "tokens": [
+    {
+      "id": "token-01",
+      "scope": "keyword.control",
+      "name": "舛花色",
+      "hex": "#567a98",
+      "isReceding": true,
+      "priority": 100,
+      "customSettings": null
+    },
+    {
+      "id": "token-02",
+      "scope": "string.quoted",
+      "name": "江戸茶",
+      "hex": "#cd8c5c",
+      "isReceding": false,
+      "priority": 200,
+      "customSettings": {
+        "fontStyle": "normal",
+        "fallback": "#b4866b"
+      }
+    }
+  ],
+  "enabledFeatures": {
+    "reduceEyeStrain": true,
+    "highlightMatches": true,
+    "debugMode": false
+  }
+}
