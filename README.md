@@ -31,13 +31,13 @@ A Light theme will be added in an upcoming release.
 
 ![Edo Nezu Dark](images/edo-nezu-dark.png)
 
-## 📜 What is "Edo-nezumi"?
+## 📜 What is "Edo-Nezu"?
 
 "Edo-nezu" (江戸鼠, meaning Edo grayish) is a traditional Japanese color characterized by warm brown or gray tones.
 
 In the late 18th century (during the Edo period), the Tokugawa shogunate issued strict sumptuary laws prohibiting commoners from wearing vivid, opulent colors such as deep red and purple. Restricted to using only subdued tones like brown and gray, the townspeople of Edo exercised great ingenuity, creating hundreds of delicate and subtle shades. This aesthetic sensibility became known as "Shijūhatcha-hyakunezu" (四十八茶百鼠, meaning a vast variety of brown and gray colors), symbolizing the rich variety and nuance found within these colors.
 
-Edo-nezumi gained immense popularity as a symbol of "_iki_"—a refined, understated style born from the ability to elevate strict constraints into a creative aesthetic.
+Edo-Nezu gained immense popularity as a symbol of "_iki_"—a refined, understated style born from the ability to elevate strict constraints into a creative aesthetic.
 
 ## 🕒 Changelog
 
