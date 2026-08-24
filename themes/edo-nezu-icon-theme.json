@@ -1,0 +1,834 @@
+{
+  "iconDefinitions": {
+    "file": {
+      "iconPath": "vendor/gruvbox-icons/base/file.svg"
+    },
+    "file_light": {
+      "iconPath": "vendor/gruvbox-icons/base/file-light.svg"
+    },
+    "folder": {
+      "iconPath": "vendor/gruvbox-icons/base/folder.svg"
+    },
+    "folder-open": {
+      "iconPath": "vendor/gruvbox-icons/base/folder-open.svg"
+    },
+    "applescript": {
+      "iconPath": "vendor/gruvbox-icons/files/applescript.svg"
+    },
+    "applescript_light": {
+      "iconPath": "vendor/gruvbox-icons/files/applescript-light.svg"
+    },
+    "coffeescript": {
+      "iconPath": "vendor/gruvbox-icons/files/coffeescript.svg"
+    },
+    "c": {
+      "iconPath": "vendor/gruvbox-icons/files/c.svg"
+    },
+    "cpp": {
+      "iconPath": "vendor/gruvbox-icons/files/cpp.svg"
+    },
+    "csharp": {
+      "iconPath": "vendor/gruvbox-icons/files/csharp.svg"
+    },
+    "css": {
+      "iconPath": "vendor/gruvbox-icons/files/css.svg"
+    },
+    "elixir": {
+      "iconPath": "vendor/gruvbox-icons/files/elixir.svg"
+    },
+    "elm": {
+      "iconPath": "vendor/gruvbox-icons/files/elm.svg"
+    },
+    "fsharp": {
+      "iconPath": "vendor/gruvbox-icons/files/fsharp.svg"
+    },
+    "go": {
+      "iconPath": "vendor/gruvbox-icons/files/go.svg"
+    },
+    "graphql": {
+      "iconPath": "vendor/gruvbox-icons/files/graphql.svg"
+    },
+    "haskell": {
+      "iconPath": "vendor/gruvbox-icons/files/haskell.svg"
+    },
+    "html": {
+      "iconPath": "vendor/gruvbox-icons/files/html.svg"
+    },
+    "image": {
+      "iconPath": "vendor/gruvbox-icons/files/image.svg"
+    },
+    "java": {
+      "iconPath": "vendor/gruvbox-icons/files/java.svg"
+    },
+    "javascript": {
+      "iconPath": "vendor/gruvbox-icons/files/javascript.svg"
+    },
+    "javascript-test": {
+      "iconPath": "vendor/gruvbox-icons/files/javascript-test.svg"
+    },
+    "json": {
+      "iconPath": "vendor/gruvbox-icons/files/json.svg"
+    },
+    "kotlin": {
+      "iconPath": "vendor/gruvbox-icons/files/kotlin.svg"
+    },
+    "lua": {
+      "iconPath": "vendor/gruvbox-icons/files/lua.svg"
+    },
+    "markdown": {
+      "iconPath": "vendor/gruvbox-icons/files/markdown.svg"
+    },
+    "nginx": {
+      "iconPath": "vendor/gruvbox-icons/files/nginx.svg"
+    },
+    "ocaml": {
+      "iconPath": "vendor/gruvbox-icons/files/ocaml.svg"
+    },
+    "perl": {
+      "iconPath": "vendor/gruvbox-icons/files/perl.svg"
+    },
+    "php": {
+      "iconPath": "vendor/gruvbox-icons/files/php.svg"
+    },
+    "postcss": {
+      "iconPath": "vendor/gruvbox-icons/files/postcss.svg"
+    },
+    "purescript": {
+      "iconPath": "vendor/gruvbox-icons/files/purescript.svg"
+    },
+    "purescript_light": {
+      "iconPath": "vendor/gruvbox-icons/files/purescript-light.svg"
+    },
+    "python": {
+      "iconPath": "vendor/gruvbox-icons/files/python.svg"
+    },
+    "react": {
+      "iconPath": "vendor/gruvbox-icons/files/react.svg"
+    },
+    "ruby": {
+      "iconPath": "vendor/gruvbox-icons/files/ruby.svg"
+    },
+    "rust": {
+      "iconPath": "vendor/gruvbox-icons/files/rust.svg"
+    },
+    "rust_light": {
+      "iconPath": "vendor/gruvbox-icons/files/rust-light.svg"
+    },
+    "sass": {
+      "iconPath": "vendor/gruvbox-icons/files/sass.svg"
+    },
+    "scala": {
+      "iconPath": "vendor/gruvbox-icons/files/scala.svg"
+    },
+    "storybook": {
+      "iconPath": "vendor/gruvbox-icons/files/storybook.svg"
+    },
+    "stylus": {
+      "iconPath": "vendor/gruvbox-icons/files/stylus.svg"
+    },
+    "svelte": {
+      "iconPath": "vendor/gruvbox-icons/files/svelte.svg"
+    },
+    "svg": {
+      "iconPath": "vendor/gruvbox-icons/files/svg.svg"
+    },
+    "swift": {
+      "iconPath": "vendor/gruvbox-icons/files/swift.svg"
+    },
+    "typescript": {
+      "iconPath": "vendor/gruvbox-icons/files/typescript.svg"
+    },
+    "typescript-def": {
+      "iconPath": "vendor/gruvbox-icons/files/typescript-def.svg"
+    },
+    "typescript-test": {
+      "iconPath": "vendor/gruvbox-icons/files/typescript-test.svg"
+    },
+    "vscode": {
+      "iconPath": "vendor/gruvbox-icons/files/vscode.svg"
+    },
+    "vue": {
+      "iconPath": "vendor/gruvbox-icons/files/vue.svg"
+    },
+    "xml": {
+      "iconPath": "vendor/gruvbox-icons/files/xml.svg"
+    },
+    "yaml": {
+      "iconPath": "vendor/gruvbox-icons/files/yaml.svg"
+    },
+    "babel": {
+      "iconPath": "vendor/gruvbox-icons/files/babel.svg"
+    },
+    "browserslist": {
+      "iconPath": "vendor/gruvbox-icons/files/browserslist.svg"
+    },
+    "commitlint": {
+      "iconPath": "vendor/gruvbox-icons/files/commitlint.svg"
+    },
+    "cypress": {
+      "iconPath": "vendor/gruvbox-icons/files/cypress.svg"
+    },
+    "docker": {
+      "iconPath": "vendor/gruvbox-icons/files/docker.svg"
+    },
+    "editorconfig": {
+      "iconPath": "vendor/gruvbox-icons/files/editorconfig.svg"
+    },
+    "eslint": {
+      "iconPath": "vendor/gruvbox-icons/files/eslint.svg"
+    },
+    "git": {
+      "iconPath": "vendor/gruvbox-icons/files/git.svg"
+    },
+    "gitlab": {
+      "iconPath": "vendor/gruvbox-icons/files/gitlab.svg"
+    },
+    "grunt": {
+      "iconPath": "vendor/gruvbox-icons/files/grunt.svg"
+    },
+    "gulp": {
+      "iconPath": "vendor/gruvbox-icons/files/gulp.svg"
+    },
+    "husky": {
+      "iconPath": "vendor/gruvbox-icons/files/husky.svg"
+    },
+    "jest": {
+      "iconPath": "vendor/gruvbox-icons/files/jest.svg"
+    },
+    "makefile": {
+      "iconPath": "vendor/gruvbox-icons/files/makefile.svg"
+    },
+    "nano-staged": {
+      "iconPath": "vendor/gruvbox-icons/files/nano-staged.svg"
+    },
+    "nodejs": {
+      "iconPath": "vendor/gruvbox-icons/files/nodejs.svg"
+    },
+    "npm": {
+      "iconPath": "vendor/gruvbox-icons/files/npm.svg"
+    },
+    "playwright": {
+      "iconPath": "vendor/gruvbox-icons/files/playwright.svg"
+    },
+    "pnpm": {
+      "iconPath": "vendor/gruvbox-icons/files/pnpm.svg"
+    },
+    "pnpm_light": {
+      "iconPath": "vendor/gruvbox-icons/files/pnpm-light.svg"
+    },
+    "prettier": {
+      "iconPath": "vendor/gruvbox-icons/files/prettier.svg"
+    },
+    "stylelint": {
+      "iconPath": "vendor/gruvbox-icons/files/stylelint.svg"
+    },
+    "stylelint_light": {
+      "iconPath": "vendor/gruvbox-icons/files/stylelint-light.svg"
+    },
+    "tailwind": {
+      "iconPath": "vendor/gruvbox-icons/files/tailwind.svg"
+    },
+    "vite": {
+      "iconPath": "vendor/gruvbox-icons/files/vite.svg"
+    },
+    "vitest": {
+      "iconPath": "vendor/gruvbox-icons/files/vitest.svg"
+    },
+    "webpack": {
+      "iconPath": "vendor/gruvbox-icons/files/webpack.svg"
+    },
+    "yarn": {
+      "iconPath": "vendor/gruvbox-icons/files/yarn.svg"
+    }
+  },
+  "fileExtensions": {
+    "applescript": "applescript",
+    "ipa": "applescript",
+    "coffee": "coffeescript",
+    "c": "c",
+    "cc": "cpp",
+    "cpp": "cpp",
+    "cxx": "cpp",
+    "c++": "cpp",
+    "cp": "cpp",
+    "mm": "cpp",
+    "mii": "cpp",
+    "ii": "cpp",
+    "cs": "csharp",
+    "csx": "csharp",
+    "css": "css",
+    "ex": "elixir",
+    "exs": "elixir",
+    "eex": "elixir",
+    "leex": "elixir",
+    "heex": "elixir",
+    "elm": "elm",
+    "fs": "fsharp",
+    "fsx": "fsharp",
+    "fsi": "fsharp",
+    "fsproj": "fsharp",
+    "go": "go",
+    "graphql": "graphql",
+    "gql": "graphql",
+    "hs": "haskell",
+    "lhs": "haskell",
+    "htm": "html",
+    "html": "html",
+    "png": "image",
+    "jpeg": "image",
+    "jpg": "image",
+    "gif": "image",
+    "ico": "image",
+    "tif": "image",
+    "tiff": "image",
+    "psd": "image",
+    "psb": "image",
+    "ami": "image",
+    "apx": "image",
+    "avif": "image",
+    "bmp": "image",
+    "bpg": "image",
+    "brk": "image",
+    "cur": "image",
+    "dds": "image",
+    "dng": "image",
+    "exr": "image",
+    "fpx": "image",
+    "gbr": "image",
+    "img": "image",
+    "jbig2": "image",
+    "jb2": "image",
+    "jng": "image",
+    "jxr": "image",
+    "pgf": "image",
+    "pic": "image",
+    "raw": "image",
+    "webp": "image",
+    "eps": "image",
+    "afphoto": "image",
+    "ase": "image",
+    "aseprite": "image",
+    "clip": "image",
+    "cpt": "image",
+    "heif": "image",
+    "heic": "image",
+    "kra": "image",
+    "mdp": "image",
+    "ora": "image",
+    "pdn": "image",
+    "reb": "image",
+    "sai": "image",
+    "tga": "image",
+    "xcf": "image",
+    "jfif": "image",
+    "ppm": "image",
+    "pbm": "image",
+    "pgm": "image",
+    "pnm": "image",
+    "icns": "image",
+    "java": "java",
+    "jsp": "java",
+    "js": "javascript",
+    "cjs": "javascript",
+    "mjs": "javascript",
+    "es": "javascript",
+    "spec.js": "javascript-test",
+    "spec.cjs": "javascript-test",
+    "spec.mjs": "javascript-test",
+    "cy.js": "javascript-test",
+    "e2e-spec.js": "javascript-test",
+    "e2e-spec.cjs": "javascript-test",
+    "e2e-spec.mjs": "javascript-test",
+    "test.js": "javascript-test",
+    "test.cjs": "javascript-test",
+    "test.mjs": "javascript-test",
+    "js.snap": "javascript-test",
+    "spec.jsx": "javascript-test",
+    "test.jsx": "javascript-test",
+    "jsx.snap": "javascript-test",
+    "json": "json",
+    "jsonc": "json",
+    "json5": "json",
+    "kt": "kotlin",
+    "kts": "kotlin",
+    "lua": "lua",
+    "markdown": "markdown",
+    "md": "markdown",
+    "nginx": "nginx",
+    "nginxconfig": "nginx",
+    "ml": "ocaml",
+    "mli": "ocaml",
+    "cmx": "ocaml",
+    "pl": "perl",
+    "pm": "perl",
+    "raku": "perl",
+    "php": "php",
+    "pcss": "postcss",
+    "purs": "purescript",
+    "pure": "purescript",
+    "py": "python",
+    "pyc": "python",
+    "pyd": "python",
+    "pyo": "python",
+    "pyw": "python",
+    "pyz": "python",
+    "pyi": "python",
+    "jsx": "react",
+    "tsx": "react",
+    "rb": "ruby",
+    "erb": "ruby",
+    "rbw": "ruby",
+    "rs": "rust",
+    "ron": "rust",
+    "sass": "sass",
+    "scss": "sass",
+    "scala": "scala",
+    "sc": "scala",
+    "stories.js": "storybook",
+    "stories.jsx": "storybook",
+    "stories.mdx": "storybook",
+    "story.js": "storybook",
+    "story.jsx": "storybook",
+    "stories.ts": "storybook",
+    "stories.tsx": "storybook",
+    "story.ts": "storybook",
+    "story.tsx": "storybook",
+    "stories.svelte": "storybook",
+    "story.mdx": "storybook",
+    "styl": "stylus",
+    "svelte": "svelte",
+    "svg": "svg",
+    "swift": "swift",
+    "ts": "typescript",
+    "cts": "typescript",
+    "mts": "typescript",
+    "d.ts": "typescript-def",
+    "d.cts": "typescript-def",
+    "d.mts": "typescript-def",
+    "spec.ts": "typescript-test",
+    "spec.cts": "typescript-test",
+    "spec.mts": "typescript-test",
+    "cy.ts": "typescript-test",
+    "e2e-spec.ts": "typescript-test",
+    "e2e-spec.cts": "typescript-test",
+    "e2e-spec.mts": "typescript-test",
+    "test.ts": "typescript-test",
+    "test.cts": "typescript-test",
+    "test.mts": "typescript-test",
+    "ts.snap": "typescript-test",
+    "spec.tsx": "typescript-test",
+    "test.tsx": "typescript-test",
+    "tsx.snap": "typescript-test",
+    "vscodeignore": "vscode",
+    "vsixmanifest": "vscode",
+    "vsix": "vscode",
+    "code-workplace": "vscode",
+    "code-workspace": "vscode",
+    "code-profile": "vscode",
+    "code-snippets": "vscode",
+    "vue": "vue",
+    "xml": "xml",
+    "xquery": "xml",
+    "xsl": "xml",
+    "yaml": "yaml",
+    "yml": "yaml"
+  },
+  "fileNames": {
+    ".babelrc": "babel",
+    ".babelrc.cjs": "babel",
+    ".babelrc.js": "babel",
+    ".babelrc.mjs": "babel",
+    ".babelrc.json": "babel",
+    "babel.config.cjs": "babel",
+    "babel.config.js": "babel",
+    "babel.config.mjs": "babel",
+    "babel.config.json": "babel",
+    "babel-transform.js": "babel",
+    ".babel-plugin-macrosrc": "babel",
+    ".babel-plugin-macrosrc.json": "babel",
+    ".babel-plugin-macrosrc.yaml": "babel",
+    ".babel-plugin-macrosrc.yml": "babel",
+    ".babel-plugin-macrosrc.js": "babel",
+    "babel-plugin-macros.config.js": "babel",
+    "browserslist": "browserslist",
+    ".browserslistrc": "browserslist",
+    ".commitlintrc": "commitlint",
+    ".commitlintrc.js": "commitlint",
+    ".commitlintrc.cjs": "commitlint",
+    ".commitlintrc.ts": "commitlint",
+    ".commitlintrc.cts": "commitlint",
+    ".commitlintrc.json": "commitlint",
+    ".commitlintrc.yaml": "commitlint",
+    ".commitlintrc.yml": "commitlint",
+    ".commitlint.yaml": "commitlint",
+    ".commitlint.yml": "commitlint",
+    "commitlint.config.js": "commitlint",
+    "commitlint.config.cjs": "commitlint",
+    "commitlint.config.ts": "commitlint",
+    "commitlint.config.cts": "commitlint",
+    "cypress.json": "cypress",
+    "cypress.env.json": "cypress",
+    "cypress.config.ts": "cypress",
+    "cypress.config.js": "cypress",
+    "cypress.config.cjs": "cypress",
+    "cypress.config.mjs": "cypress",
+    "dockerignore": "docker",
+    "dockerfile": "docker",
+    "docker-compose.yml": "docker",
+    "docker-compose.yaml": "docker",
+    ".editorconfig": "editorconfig",
+    "editorconfig": "editorconfig",
+    ".eslintrc.js": "eslint",
+    ".eslintrc.cjs": "eslint",
+    ".eslintrc.yaml": "eslint",
+    ".eslintrc.json": "eslint",
+    ".eslintrc-md.js": "eslint",
+    ".eslintrc-jsdoc.js": "eslint",
+    ".eslintrc": "eslint",
+    ".eslintignore": "eslint",
+    ".eslintcache": "eslint",
+    ".eslint.config.js": "eslint",
+    "eslint.config.js": "eslint",
+    ".gitignore": "git",
+    ".git-blame-ignore": "git",
+    ".gitignore-global": "git",
+    ".gitignore_global": "git",
+    ".gitconfig": "git",
+    ".gitattributes": "git",
+    ".gitmodules": "git",
+    ".gitkeep": "git",
+    ".gitinclude": "git",
+    "git-history": "git",
+    "gitlab-ci.yml": "gitlab",
+    "gruntfile.js": "grunt",
+    "gruntfile.ts": "grunt",
+    "gruntfile.coffee": "grunt",
+    "gruntfile.babel.js": "grunt",
+    "gruntfile.babel.ts": "grunt",
+    "gruntfile.babel.coffee": "grunt",
+    "gulpfile.js": "gulp",
+    "gulpfile.mjs": "gulp",
+    "gulpfile.ts": "gulp",
+    "gulpfile.cts": "gulp",
+    "gulpfile.mts": "gulp",
+    "gulpfile.babel.js": "gulp",
+    ".huskyrc": "husky",
+    "husky.config.js": "husky",
+    ".huskyrc.json": "husky",
+    ".huskyrc.js": "husky",
+    ".huskyrc.yaml": "husky",
+    ".huskyrc.yml": "husky",
+    "jest.config.js": "jest",
+    "jest.config.cjs": "jest",
+    "jest.config.mjs": "jest",
+    "jest.config.ts": "jest",
+    "jest.config.cts": "jest",
+    "jest.config.mts": "jest",
+    "jest.config.json": "jest",
+    "jest.e2e.config.js": "jest",
+    "jest.e2e.config.cjs": "jest",
+    "jest.e2e.config.mjs": "jest",
+    "jest.e2e.config.ts": "jest",
+    "jest.e2e.config.cts": "jest",
+    "jest.e2e.config.mts": "jest",
+    "jest.e2e.config.json": "jest",
+    "jest.e2e.json": "jest",
+    "jest-unit.config.js": "jest",
+    "jest-e2e.config.js": "jest",
+    "jest-e2e.config.cjs": "jest",
+    "jest-e2e.config.mjs": "jest",
+    "jest-e2e.config.ts": "jest",
+    "jest-e2e.config.cts": "jest",
+    "jest-e2e.config.mts": "jest",
+    "jest-e2e.config.json": "jest",
+    "jest-e2e.json": "jest",
+    "jest-github-actions-reporter.js": "jest",
+    "jest.setup.js": "jest",
+    "jest.setup.ts": "jest",
+    "jest.json": "jest",
+    ".jestrc": "jest",
+    ".jestrc.js": "jest",
+    ".jestrc.json": "jest",
+    "jest.teardown.js": "jest",
+    "makefile": "makefile",
+    "gnumakefile": "makefile",
+    "kbuild": "makefile",
+    ".nano-staged.js": "nano-staged",
+    "nano-staged.js": "nano-staged",
+    ".nano-staged.cjs": "nano-staged",
+    "nano-staged.cjs": "nano-staged",
+    ".nano-staged.mjs": "nano-staged",
+    "nano-staged.mjs": "nano-staged",
+    ".nano-staged.json": "nano-staged",
+    "nano-staged.json": "nano-staged",
+    ".nanostagedrc": "nano-staged",
+    "nginx.conf": "nginx",
+    "package.json": "nodejs",
+    "package-lock.json": "nodejs",
+    ".nvmrc": "nodejs",
+    ".esmrc": "nodejs",
+    ".node-version": "nodejs",
+    ".npmignore": "npm",
+    ".npmrc": "npm",
+    "playwright.config.js": "playwright",
+    "playwright.config.mjs": "playwright",
+    "playwright.config.ts": "playwright",
+    "playwright-ct.config.js": "playwright",
+    "playwright-ct.config.mjs": "playwright",
+    "playwright-ct.config.ts": "playwright",
+    "pnpm-lock.yaml": "pnpm",
+    "pnpm-workspace.yaml": "pnpm",
+    ".pnpmfile.cjs": "pnpm",
+    ".prettierrc": "prettier",
+    "prettier.config.js": "prettier",
+    "prettier.config.cjs": "prettier",
+    ".prettierrc.js": "prettier",
+    ".prettierrc.cjs": "prettier",
+    ".prettierrc.json": "prettier",
+    ".prettierrc.json5": "prettier",
+    ".prettierrc.yaml": "prettier",
+    ".prettierrc.yml": "prettier",
+    ".prettierignore": "prettier",
+    ".prettierrc.toml": "prettier",
+    ".stylelintrc": "stylelint",
+    "stylelint.config.js": "stylelint",
+    "stylelint.config.cjs": "stylelint",
+    ".stylelintrc.json": "stylelint",
+    ".stylelintrc.yaml": "stylelint",
+    ".stylelintrc.yml": "stylelint",
+    ".stylelintrc.js": "stylelint",
+    ".stylelintrc.cjs": "stylelint",
+    ".stylelintignore": "stylelint",
+    ".stylelintcache": "stylelint",
+    "tailwind.js": "tailwind",
+    "tailwind.ts": "tailwind",
+    "tailwind.config.js": "tailwind",
+    "tailwind.config.cjs": "tailwind",
+    "tailwind.config.ts": "tailwind",
+    "tailwind.config.cts": "tailwind",
+    "vite.config.js": "vite",
+    "vite.config.mjs": "vite",
+    "vite.config.cjs": "vite",
+    "vite.config.ts": "vite",
+    "vite.config.cts": "vite",
+    "vite.config.mts": "vite",
+    "vitest.config.ts": "vitest",
+    "vitest.config.mts": "vitest",
+    "vitest.config.cts": "vitest",
+    "vitest.config.js": "vitest",
+    "vitest.config.mjs": "vitest",
+    "vitest.config.cjs": "vitest",
+    "webpack.js": "webpack",
+    "webpack.cjs": "webpack",
+    "webpack.mjs": "webpack",
+    "webpack.ts": "webpack",
+    "webpack.cts": "webpack",
+    "webpack.mts": "webpack",
+    "webpack.base.js": "webpack",
+    "webpack.base.cjs": "webpack",
+    "webpack.base.mjs": "webpack",
+    "webpack.base.ts": "webpack",
+    "webpack.base.cts": "webpack",
+    "webpack.base.mts": "webpack",
+    "webpack.config.js": "webpack",
+    "webpack.config.cjs": "webpack",
+    "webpack.config.mjs": "webpack",
+    "webpack.config.ts": "webpack",
+    "webpack.config.cts": "webpack",
+    "webpack.config.mts": "webpack",
+    "webpack.common.js": "webpack",
+    "webpack.common.cjs": "webpack",
+    "webpack.common.mjs": "webpack",
+    "webpack.common.ts": "webpack",
+    "webpack.common.cts": "webpack",
+    "webpack.common.mts": "webpack",
+    "webpack.config.common.js": "webpack",
+    "webpack.config.common.cjs": "webpack",
+    "webpack.config.common.mjs": "webpack",
+    "webpack.config.common.ts": "webpack",
+    "webpack.config.common.cts": "webpack",
+    "webpack.config.common.mts": "webpack",
+    "webpack.config.common.babel.js": "webpack",
+    "webpack.config.common.babel.ts": "webpack",
+    "webpack.dev.js": "webpack",
+    "webpack.dev.cjs": "webpack",
+    "webpack.dev.mjs": "webpack",
+    "webpack.dev.ts": "webpack",
+    "webpack.dev.cts": "webpack",
+    "webpack.dev.mts": "webpack",
+    "webpack.development.js": "webpack",
+    "webpack.development.cjs": "webpack",
+    "webpack.development.mjs": "webpack",
+    "webpack.development.ts": "webpack",
+    "webpack.development.cts": "webpack",
+    "webpack.development.mts": "webpack",
+    "webpack.config.dev.js": "webpack",
+    "webpack.config.dev.cjs": "webpack",
+    "webpack.config.dev.mjs": "webpack",
+    "webpack.config.dev.ts": "webpack",
+    "webpack.config.dev.cts": "webpack",
+    "webpack.config.dev.mts": "webpack",
+    "webpack.config.dev.babel.js": "webpack",
+    "webpack.config.dev.babel.ts": "webpack",
+    "webpack.mix.js": "webpack",
+    "webpack.mix.cjs": "webpack",
+    "webpack.mix.mjs": "webpack",
+    "webpack.mix.ts": "webpack",
+    "webpack.mix.cts": "webpack",
+    "webpack.mix.mts": "webpack",
+    "webpack.prod.js": "webpack",
+    "webpack.prod.cjs": "webpack",
+    "webpack.prod.mjs": "webpack",
+    "webpack.prod.ts": "webpack",
+    "webpack.prod.cts": "webpack",
+    "webpack.prod.mts": "webpack",
+    "webpack.prod.config.js": "webpack",
+    "webpack.prod.config.cjs": "webpack",
+    "webpack.prod.config.mjs": "webpack",
+    "webpack.prod.config.ts": "webpack",
+    "webpack.prod.config.cts": "webpack",
+    "webpack.prod.config.mts": "webpack",
+    "webpack.production.js": "webpack",
+    "webpack.production.cjs": "webpack",
+    "webpack.production.mjs": "webpack",
+    "webpack.production.ts": "webpack",
+    "webpack.production.cts": "webpack",
+    "webpack.production.mts": "webpack",
+    "webpack.server.js": "webpack",
+    "webpack.server.cjs": "webpack",
+    "webpack.server.mjs": "webpack",
+    "webpack.server.ts": "webpack",
+    "webpack.server.cts": "webpack",
+    "webpack.server.mts": "webpack",
+    "webpack.client.js": "webpack",
+    "webpack.client.cjs": "webpack",
+    "webpack.client.mjs": "webpack",
+    "webpack.client.ts": "webpack",
+    "webpack.client.cts": "webpack",
+    "webpack.client.mts": "webpack",
+    "webpack.config.server.js": "webpack",
+    "webpack.config.server.cjs": "webpack",
+    "webpack.config.server.mjs": "webpack",
+    "webpack.config.server.ts": "webpack",
+    "webpack.config.server.cts": "webpack",
+    "webpack.config.server.mts": "webpack",
+    "webpack.config.client.js": "webpack",
+    "webpack.config.client.cjs": "webpack",
+    "webpack.config.client.mjs": "webpack",
+    "webpack.config.client.ts": "webpack",
+    "webpack.config.client.cts": "webpack",
+    "webpack.config.client.mts": "webpack",
+    "webpack.config.production.babel.js": "webpack",
+    "webpack.config.production.babel.ts": "webpack",
+    "webpack.config.prod.babel.js": "webpack",
+    "webpack.config.prod.babel.cjs": "webpack",
+    "webpack.config.prod.babel.mjs": "webpack",
+    "webpack.config.prod.babel.ts": "webpack",
+    "webpack.config.prod.babel.cts": "webpack",
+    "webpack.config.prod.babel.mts": "webpack",
+    "webpack.config.prod.js": "webpack",
+    "webpack.config.prod.cjs": "webpack",
+    "webpack.config.prod.mjs": "webpack",
+    "webpack.config.prod.ts": "webpack",
+    "webpack.config.prod.cts": "webpack",
+    "webpack.config.prod.mts": "webpack",
+    "webpack.config.production.js": "webpack",
+    "webpack.config.production.cjs": "webpack",
+    "webpack.config.production.mjs": "webpack",
+    "webpack.config.production.ts": "webpack",
+    "webpack.config.production.cts": "webpack",
+    "webpack.config.production.mts": "webpack",
+    "webpack.config.staging.js": "webpack",
+    "webpack.config.staging.cjs": "webpack",
+    "webpack.config.staging.mjs": "webpack",
+    "webpack.config.staging.ts": "webpack",
+    "webpack.config.staging.cts": "webpack",
+    "webpack.config.staging.mts": "webpack",
+    "webpack.config.babel.js": "webpack",
+    "webpack.config.babel.ts": "webpack",
+    "webpack.config.base.babel.js": "webpack",
+    "webpack.config.base.babel.ts": "webpack",
+    "webpack.config.base.js": "webpack",
+    "webpack.config.base.cjs": "webpack",
+    "webpack.config.base.mjs": "webpack",
+    "webpack.config.base.ts": "webpack",
+    "webpack.config.base.cts": "webpack",
+    "webpack.config.base.mts": "webpack",
+    "webpack.config.staging.babel.js": "webpack",
+    "webpack.config.staging.babel.ts": "webpack",
+    "webpack.config.coffee": "webpack",
+    "webpack.config.test.js": "webpack",
+    "webpack.config.test.cjs": "webpack",
+    "webpack.config.test.mjs": "webpack",
+    "webpack.config.test.ts": "webpack",
+    "webpack.config.test.cts": "webpack",
+    "webpack.config.test.mts": "webpack",
+    "webpack.config.vendor.js": "webpack",
+    "webpack.config.vendor.cjs": "webpack",
+    "webpack.config.vendor.mjs": "webpack",
+    "webpack.config.vendor.ts": "webpack",
+    "webpack.config.vendor.cts": "webpack",
+    "webpack.config.vendor.mts": "webpack",
+    "webpack.config.vendor.production.js": "webpack",
+    "webpack.config.vendor.production.cjs": "webpack",
+    "webpack.config.vendor.production.mjs": "webpack",
+    "webpack.config.vendor.production.ts": "webpack",
+    "webpack.config.vendor.production.cts": "webpack",
+    "webpack.config.vendor.production.mts": "webpack",
+    "webpack.test.js": "webpack",
+    "webpack.test.cjs": "webpack",
+    "webpack.test.mjs": "webpack",
+    "webpack.test.ts": "webpack",
+    "webpack.test.cts": "webpack",
+    "webpack.test.mts": "webpack",
+    "webpack.dist.js": "webpack",
+    "webpack.dist.cjs": "webpack",
+    "webpack.dist.mjs": "webpack",
+    "webpack.dist.ts": "webpack",
+    "webpack.dist.cts": "webpack",
+    "webpack.dist.mts": "webpack",
+    "webpackfile.js": "webpack",
+    "webpackfile.cjs": "webpack",
+    "webpackfile.mjs": "webpack",
+    "webpackfile.ts": "webpack",
+    "webpackfile.cts": "webpack",
+    "webpackfile.mts": "webpack",
+    ".yarnrc": "yarn",
+    "yarn.lock": "yarn",
+    ".yarnclean": "yarn",
+    ".yarn-integrity": "yarn",
+    "yarn-error.log": "yarn",
+    ".yarnrc.yml": "yarn",
+    ".yarnrc.yaml": "yarn"
+  },
+  "light": {
+    "file": "file_light",
+    "fileExtensions": {
+      "applescript": "applescript_light",
+      "ipa": "applescript_light",
+      "purs": "purescript_light",
+      "pure": "purescript_light",
+      "rs": "rust_light",
+      "ron": "rust_light"
+    },
+    "fileNames": {
+      "pnpm-lock.yaml": "pnpm_light",
+      "pnpm-workspace.yaml": "pnpm_light",
+      ".pnpmfile.cjs": "pnpm_light",
+      ".stylelintrc": "stylelint_light",
+      "stylelint.config.js": "stylelint_light",
+      "stylelint.config.cjs": "stylelint_light",
+      ".stylelintrc.json": "stylelint_light",
+      ".stylelintrc.yaml": "stylelint_light",
+      ".stylelintrc.yml": "stylelint_light",
+      ".stylelintrc.js": "stylelint_light",
+      ".stylelintrc.cjs": "stylelint_light",
+      ".stylelintignore": "stylelint_light",
+      ".stylelintcache": "stylelint_light"
+    }
+  },
+  "file": "file",
+  "folder": "folder",
+  "folderExpanded": "folder-open",
+  "hidesExplorerArrows": true
+}

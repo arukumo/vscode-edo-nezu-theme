@@ -1,9 +1,11 @@
 # Set default behavior to automatically normalize line endings.
 * text eol=lf
 # バイナリファイルは改行変換を行わない
+*.af binary
 *.png binary
 *.jpg binary
 *.jpeg binary
+*.svg binary
 *.gif binary
 *.ico binary
 *.af binary

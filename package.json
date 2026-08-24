@@ -4,13 +4,18 @@
   "description": "A color theme designed for work, eye-friendly.",
   "keywords": [
     "readable",
-    "readability",
     "eye-friendly",
     "calm",
     "grayish",
-    "japanese"
+    "low-contrast",
+    "muted",
+    "matte",
+    "neutral",
+    "earthy",
+    "japanese",
+    "traditional"
   ],
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "arukumo",
   "icon": "images/icon.png",
   "license": "MIT",
@@ -33,6 +38,19 @@
         "label": "Edo Nezu Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/edo-nezu-dark-color-theme.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "edo-nezu-icon-theme",
+        "label": "Edo Nezu Icon Theme",
+        "path": "./themes/edo-nezu-icon-theme.json",
+        "_watch": true
+      },
+      {
+        "id": "edo-nezu-material-icon-theme",
+        "label": "Edo Nezu Material Icon Theme",
+        "path": "./themes/edo-nezu-material-icon-theme.json"
       }
     ]
   }
