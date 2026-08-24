@@ -2,8 +2,6 @@
   "recommendations": [
     "esbenp.prettier-vscode",
     "davidanson.vscode-markdownlint",
-    "timonwong.shellcheck",
-    "azat-io.vscode-gruvbox-icon-theme",
-    "PKief.material-icon-theme"
+    "timonwong.shellcheck"
   ]
 }

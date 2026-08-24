@@ -18,17 +18,26 @@ Visual Studio Code themes designed for long hours of comfortable development.
 - **Functional contrast**: Preserves clear syntax hierarchy and practical readability.
 - **Everyday comfort**: Designed not like flashy luxury wear, but like comfortable casual wear for daily work.
 
-## 🎨 Themes
+## 🎨 Themes Included
 
 This extension is a work in progress (WIP) with colors still being actively tuned.  
 A Light theme will be added in an upcoming release.
 
+### Color Themes
+
 - **Edo Nezu Dark**
 - **Edo Nezu Light** `[Planned]`
 
+> 💡 Preview themes in your browser at [VS Code Themes](https://vscodethemes.com/?q=Edo+Nezu+Theme).
+
+### File Icon Themes
+
+- **Edo Nezu Icon Theme**
+- **Edo Nezu Material Icon Theme**
+
 ## 📷 Screenshot
 
-### Edo Nezu Dark
+### Edo Nezu Dark & Edo Nezu Icon Theme
 
 ![Edo Nezu Dark](images/edo-nezu-dark.png)
 
@@ -48,6 +57,13 @@ See [CHANGELOG.md](CHANGELOG.md) for detailed release notes and version history.
 
 This project is licensed under the [MIT License](LICENSE).  
 Copyright (c) 2026 arukumo.
+
+### Credits & Acknowledgments
+
+- Icon assets are adapted from:
+  - [Gruvbox Icon Theme](https://github.com/azat-io/vscode-gruvbox-icon-theme) by azat-io (MIT License)
+  - [Gruvbox Material Icon Theme](https://github.com/Jonathan-Harty/vscode-material-icon-theme) by Jonathan Harty (MIT License)
+  - [Material Icon Theme](https://github.com/PKief/vscode-material-icon-theme) by Philipp Kief (MIT License)
 
 ---
 

@@ -12,10 +12,10 @@
     // #2a1f0a: 黒褐（選択ハイライト背景 / ホバー）
     //
     // --- 2. 構文・シンタックス主要色 ---
-    // #cfcfcc: 白灰（本文 / キー / タグ / 演算子）
-    // #9dd4cb: 青磁（予約語 / 構文骨格 / 属性）
+    // #cfcfcc: 白灰（本文 / データ実値 / 演算子）
+    // #9dd4cb: 青磁（予約語 / 構文骨格 / HTML・XMLタグ名）
     // #88a37b: 老竹（コメント / 引用 / リンク）
-    // #d3aeb4: 牡丹鼠（文字列リテラル）
+    // #d3aeb4: 牡丹鼠（キー / 属性名 / プログラミング言語文字列）
     // #b5c7a3: 裏柳（数値 / 定数）
     // #bbce91: 山葵色（Markdown 見出し / 太字 / リスト記号）
     // #d6b575: 黄朽葉（CSSクラス / セレクタ / Git変更）
@@ -28,7 +28,7 @@
     // #39342c: 黒鳶/暗黒茶（境界線 / 枠線 / セパレータ）
     //
     // --- 4. 状態・アクセント（Git / システム） ---
-    // #5b7454: 苔色/千歳緑（ボタン / バッジ / リモート）
+    // #5b7454: 苔色/千歳緑（ボタン / バッジ / リモート / 引用ボーダー）
     // #80503f: 錆茶/弁柄茶（デバッグ中ステータスバー）
     // #d38e8e: 薄紅梅/撫子色（Git削除 / 正規表現）
     // #df8a96: 甚三紅（エラー / Git競合）
@@ -189,7 +189,11 @@
 
     // --- リンクテキスト ---
     "textLink.foreground": "#88a37b",
-    "textLink.activeForeground": "#9dd4cb"
+    "textLink.activeForeground": "#9dd4cb",
+
+    // --- 引用ブロック（Markdown Blockquote） ---
+    "textBlockQuote.border": "#5b7454", // 苔色
+    "textBlockQuote.background": "#1e160780"
   },
   "tokenColors": [
     // --- スタイル装飾（斜体・下線・打消し） ---
@@ -211,9 +215,9 @@
       "settings": { "fontStyle": "strikethrough" }
     },
 
-    // --- 予約語・構文骨格・正規表現定数 ---
+    // --- 予約語・構文骨格・HTML/XMLタグ名 ---
     {
-      "name": "Keywords and Built-ins",
+      "name": "Keywords, Built-ins, and Tag Names",
       "scope": [
         "keyword",
         "keyword.control",
@@ -243,13 +247,9 @@
         "punctuation.definition.template-expression.end",
         "punctuation.section.embedded",
         "markup.changed",
-        "entity.other.attribute-name",
-        "entity.other.attribute-name.html",
-        "entity.other.attribute-name.xml",
-        "entity.other.attribute-name.jsx",
-        "entity.other.attribute-name.tsx",
-        "meta.attribute.html",
-        "meta.structure.dictionary.key.python",
+        "entity.name.tag.html",
+        "entity.name.tag.xml",
+        "entity.name.tag.localname.xml",
         "support.type.vendored.property-name",
         "support.type.property-name",
         "source.css variable",
@@ -270,9 +270,9 @@
       "settings": { "foreground": "#88a37b" } // 老竹
     },
 
-    // --- 文字列リテラル ---
+    // --- 一般文字列リテラル / データキー / 属性名 ---
     {
-      "name": "Strings",
+      "name": "Strings, Data Keys, and Attributes",
       "scope": [
         "string",
         "string.tag",
@@ -280,9 +280,45 @@
         "meta.embedded.assembly",
         "meta.preprocessor.string",
         "markup.inline.raw",
-        "markup.deleted"
+        "markup.deleted",
+        // HTML / XML 属性名
+        "entity.other.attribute-name",
+        "entity.other.attribute-name.html",
+        "entity.other.attribute-name.xml",
+        "entity.other.attribute-name.jsx",
+        "entity.other.attribute-name.tsx",
+        "meta.attribute.html",
+        // JSON キー
+        "source.json support.type.property-name.json",
+        "meta.structure.dictionary.json support.type.property-name.json",
+        // YAML キー
+        "entity.name.tag.yaml",
+        "source.yaml support.type.property-name",
+        "punctuation.support.type.property-name.yaml",
+        "meta.structure.dictionary.key.python"
       ],
       "settings": { "foreground": "#d3aeb4" } // 牡丹鼠
+    },
+
+    // --- JSON / YAML / HTML・XML 属性値（設定値・実データを本文色に上書き） ---
+    {
+      "name": "JSON/YAML Values & HTML/XML Attribute Values",
+      "scope": [
+        "source.json string.quoted.double.json",
+        "source.yaml string",
+        "source.yaml string.unquoted",
+        "source.yaml string.quoted.single",
+        "source.yaml string.quoted.double",
+        "string.quoted.double.html",
+        "string.quoted.single.html",
+        "string.quoted.double.xml",
+        "string.quoted.single.xml",
+        "punctuation.definition.string.begin.html",
+        "punctuation.definition.string.end.html",
+        "punctuation.definition.string.begin.xml",
+        "punctuation.definition.string.end.xml"
+      ],
+      "settings": { "foreground": "#cfcfcc" } // 白灰
     },
 
     // --- 数値・定数 ---
@@ -331,7 +367,7 @@
       "settings": { "foreground": "#d6b575" } // 黄朽葉
     },
 
-    // --- 基本テキスト・データ構造キー・HTMLタグ ---
+    // --- 基本テキスト・演算子 ---
     {
       "name": "Base Text, Keys, and Tags",
       "scope": [
@@ -343,15 +379,7 @@
         "meta.template.expression",
         "storage.modifier.import.java",
         "variable.language.wildcard.java",
-        "storage.modifier.package.java",
-        "entity.name.tag.html",
-        "entity.name.tag.xml",
-        "entity.name.tag.localname.xml",
-        "source.json support.type.property-name.json",
-        "meta.structure.dictionary.json support.type.property-name.json",
-        "entity.name.tag.yaml",
-        "source.yaml support.type.property-name",
-        "punctuation.support.type.property-name.yaml"
+        "storage.modifier.package.java"
       ],
       "settings": { "foreground": "#cfcfcc" } // 白灰
     },
@@ -376,7 +404,7 @@
     "stringLiteral": "#d3aeb4",
     "customLiteral": "#cfcfcc",
     "numberLiteral": "#b5c7a3",
-    "property": "#9dd4cb",
-    "attribute": "#9dd4cb"
+    "property": "#d3aeb4",
+    "attribute": "#d3aeb4"
   }
 }

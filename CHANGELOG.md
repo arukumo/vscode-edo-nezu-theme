@@ -4,6 +4,13 @@ All notable changes to the "edo-nezu-theme" extension will be documented in this
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.4] - 2026-08-25
+
+- Added **Edo Nezu Icon Theme** and **Edo Nezu Material Icon Theme**.
+- Refined syntax coloring for JSON, YAML, HTML, and XML.
+- Added custom styling for Markdown blockquote borders.
+- Updated README and licensing documentation.
+
 ## [0.0.3] - 2026-08-24
 
 - Adjusted Markdown heading, bold text, and list bullet colors from red tones to green tones.
