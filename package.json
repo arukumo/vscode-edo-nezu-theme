@@ -1,12 +1,14 @@
 {
   "name": "edo-nezu-theme",
   "displayName": "Edo Nezu Theme",
-  "description": "Traditional Japanese color theme. Chic, eye-friendly, and good for work.",
+  "description": "Traditional Japanese color and icon theme. Chic, eye-friendly, and good for work.",
   "galleryBanner": {
-    "color": "#d3aeb4",
+    "color": "#dbced1",
     "theme": "light"
   },
   "keywords": [
+    "color and icon",
+    "dark and light",
     "readable",
     "eye-friendly",
     "calm",
@@ -20,7 +22,7 @@
     "traditional",
     "sakura"
   ],
-  "version": "0.0.5",
+  "version": "0.1.0",
   "publisher": "arukumo",
   "icon": "images/icon.png",
   "license": "MIT",
@@ -39,6 +41,11 @@
   ],
   "contributes": {
     "themes": [
+      {
+        "label": "Edo Nezu Light",
+        "uiTheme": "vs",
+        "path": "./themes/edo-nezu-light-color-theme.json"
+      },
       {
         "label": "Edo Nezu Dark",
         "uiTheme": "vs-dark",
