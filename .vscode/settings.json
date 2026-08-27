@@ -1,6 +1,6 @@
 {
-  "workbench.colorTheme": "Edo Nezu Dark",
-  "workbench.iconTheme": "edo-nezu-icon-theme",
+  "workbench.colorTheme": "Edo Nezu Light",
+  "workbench.iconTheme": "edo-nezu-material-icon-theme",
   "editor.formatOnSave": true,
   "editor.renderWhitespace": "all",
   "files.insertFinalNewline": true,

@@ -33,7 +33,7 @@
     // #d38e8e: 薄紅梅/撫子色（Git削除 / 正規表現）
     // #df8a96: 甚三紅（エラー / Git競合）
     // =========================================================================
-    "foreground": "#cfcfcc", // 白灰
+    "foreground": "#cfcfcc",
     "editor.foreground": "#cfcfcc",
     "statusBar.foreground": "#cfcfcc",
 

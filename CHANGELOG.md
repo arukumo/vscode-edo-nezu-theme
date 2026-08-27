@@ -4,6 +4,11 @@ All notable changes to the "edo-nezu-theme" extension will be documented in this
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.1.0] - 2026-08-28
+
+- Added **Edo Nezu Light** theme, a light variant based on `Edo Nezu Dark` with adjusted color tones.
+- Added `color and icon` and `dark and light` search keywords in `package.json`.
+
 ## [0.0.5] - 2026-08-27
 
 - Enhanced Introduction and Concept sections in `README.md`.
