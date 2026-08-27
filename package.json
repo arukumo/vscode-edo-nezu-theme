@@ -1,7 +1,11 @@
 {
   "name": "edo-nezu-theme",
   "displayName": "Edo Nezu Theme",
-  "description": "A color theme designed for work, eye-friendly.",
+  "description": "Traditional Japanese color theme. Chic, eye-friendly, and good for work.",
+  "galleryBanner": {
+    "color": "#d3aeb4",
+    "theme": "light"
+  },
   "keywords": [
     "readable",
     "eye-friendly",
@@ -13,9 +17,10 @@
     "neutral",
     "earthy",
     "japanese",
-    "traditional"
+    "traditional",
+    "sakura"
   ],
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "arukumo",
   "icon": "images/icon.png",
   "license": "MIT",
@@ -44,8 +49,7 @@
       {
         "id": "edo-nezu-icon-theme",
         "label": "Edo Nezu Icon Theme",
-        "path": "./themes/edo-nezu-icon-theme.json",
-        "_watch": true
+        "path": "./themes/edo-nezu-icon-theme.json"
       },
       {
         "id": "edo-nezu-material-icon-theme",

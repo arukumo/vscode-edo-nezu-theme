@@ -1,6 +1,7 @@
 # Edo Nezu Themes
 
-Visual Studio Code themes designed for long hours of comfortable development.
+A chic, soothing, and eye-friendly color and icon theme for Visual Studio Code, using traditional Japanese colors.  
+Designed with a well-balanced palette for readability and reduced glare to keep typing comfortable during long sessions.
 
 ---
 
@@ -9,16 +10,17 @@ Visual Studio Code themes designed for long hours of comfortable development.
 
 ---
 
-## 💡 Concept
+## Concept
 
-- **Easy on the eyes**: Harsh blue and high-glare hues are toned down.
-- **Traditional Japanese colors**: Built upon muted, grayish tones (chosen from Edo-nezu and Japanese traditional colors).
-- **Reduced brightness**: Avoids web-safe colors as well as pure white and black (`#FFFFFF` and `#000000`) to prevent harsh glare.
-- **Minimal palette**: Carefully limited color count to reduce visual noise.
+- **Easy on the eyes**: Tones down harsh blue and high-glare hues.
+- **Traditional Japanese colors**: Thoughtfully selected muted, grayish tones from Edo-nezu and Japanese traditional palettes.
+- **Reduced brightness**: Avoids primary colors as well as pure white and black (`#FFFFFF`/`#000000`) to prevent harsh glare.
+- **Minimal palette**: Curates a limited color count to reduce visual noise.
 - **Functional contrast**: Preserves clear syntax hierarchy and practical readability.
+- **Balanced visual depth**: Balances advancing and receding colors so keywords and syntax guide the eye without jumping out aggressively.
 - **Everyday comfort**: Designed not like flashy luxury wear, but like comfortable casual wear for daily work.
 
-## 🎨 Themes Included
+## Themes Included
 
 This extension is a work in progress (WIP) with colors still being actively tuned.  
 A Light theme will be added in an upcoming release.
@@ -35,13 +37,13 @@ A Light theme will be added in an upcoming release.
 - **Edo Nezu Icon Theme**
 - **Edo Nezu Material Icon Theme**
 
-## 📷 Screenshot
+## Screenshot
 
 ### Edo Nezu Dark & Edo Nezu Icon Theme
 
 ![Edo Nezu Dark](images/edo-nezu-dark.png)
 
-## 📜 What is "Edo-Nezu"?
+## What is "Edo-Nezu"?
 
 "Edo-nezu" (江戸鼠, meaning Edo grayish) is a traditional Japanese color characterized by warm brown or gray tones.
 
@@ -49,11 +51,11 @@ In the late 18th century (during the Edo period), the Tokugawa shogunate issued 
 
 Edo-Nezu gained immense popularity as a symbol of "_iki_" (粋) — a refined, understated style born from the ability to elevate strict constraints into a creative aesthetic.
 
-## 🕒 Changelog
+## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md) for detailed release notes and version history.
 
-## ⚖️ License
+## License
 
 This project is licensed under the [MIT License](LICENSE).  
 Copyright (c) 2026 arukumo.
@@ -67,7 +69,7 @@ Copyright (c) 2026 arukumo.
 
 ---
 
-## ☕ Support
+## Support
 
 I would greatly appreciate your support in the form of a coffee.
 

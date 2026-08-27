@@ -17,7 +17,7 @@
     // #88a37b: 老竹（コメント / 引用 / リンク）
     // #d3aeb4: 牡丹鼠（キー / 属性名 / プログラミング言語文字列）
     // #b5c7a3: 裏柳（数値 / 定数）
-    // #bbce91: 山葵色（Markdown 見出し / 太字 / リスト記号）
+    // #a4c2a9: 裏葉色（Markdown 見出し / 太字 / リスト記号）
     // #d6b575: 黄朽葉（CSSクラス / セレクタ / Git変更）
     //
     // --- 3. UIテキスト・境界・補助色 ---
@@ -29,7 +29,7 @@
     //
     // --- 4. 状態・アクセント（Git / システム） ---
     // #5b7454: 苔色/千歳緑（ボタン / バッジ / リモート / 引用ボーダー）
-    // #80503f: 錆茶/弁柄茶（デバッグ中ステータスバー）
+    // #947a6d: 胡桃色（デバッグ中ステータスバー）
     // #d38e8e: 薄紅梅/撫子色（Git削除 / 正規表現）
     // #df8a96: 甚三紅（エラー / Git競合）
     // =========================================================================
@@ -38,7 +38,7 @@
     "statusBar.foreground": "#cfcfcc",
 
     // --- 背景レイヤー ---
-    "editor.background": "#1a1306", // 憲法黒茶
+    "editor.background": "#1a1306",
     "sideBar.background": "#1e1607",
     "tab.activeBackground": "#1e1607",
     "tab.unfocusedActiveBackground": "#1a1306",
@@ -50,8 +50,9 @@
     "titleBar.activeBackground": "#110c03",
     "statusBar.background": "#1e1607",
     "statusBar.noFolderBackground": "#1e1607",
-    "statusBar.debuggingBackground": "#80503f",
+    "statusBar.debuggingBackground": "#947a6d",
     "statusBarItem.remoteBackground": "#5b7454",
+    "progressBar.background": "#5b7454",
 
     // --- ハイライト & カーソル行 ---
     "editor.selectionBackground": "#f5f2eb38",
@@ -142,7 +143,7 @@
     // --- ターミナル ---
     "terminal.background": "#1a1306",
     "terminal.foreground": "#cfcfcc",
-    "terminal.selectionBackground": "#39342c80",
+    "terminal.selectionBackground": "#5a524c80",
     "terminalCursor.foreground": "#cfcfcc",
     "terminal.ansiBlack": "#201707",
     "terminal.ansiRed": "#d38e8e",
@@ -173,7 +174,6 @@
     // --- ボタン ---
     "button.background": "#5b7454",
     "button.foreground": "#fffffc",
-    "button.hoverBackground": "#5b7454",
     "button.secondaryBackground": "#2a1f0a",
     "button.secondaryForeground": "#cfcfcc",
     "button.secondaryHoverBackground": "#39342c",
@@ -346,7 +346,7 @@
         "punctuation.definition.list.begin.markdown",
         "markup.list.numbered.bullet.markdown"
       ],
-      "settings": { "foreground": "#bbce91" } // 山葵色
+      "settings": { "foreground": "#a4c2a9" } // 裏葉色
     },
 
     // --- CSSクラス / タグセレクタ ---

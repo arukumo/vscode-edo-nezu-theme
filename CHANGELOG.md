@@ -4,6 +4,17 @@ All notable changes to the "edo-nezu-theme" extension will be documented in this
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.5] - 2026-08-27
+
+- Enhanced Introduction and Concept sections in `README.md`.
+- Updated search keywords and metadata in `package.json`.
+- Refined theme colors and UI visibility:
+  - Adjusted `terminal.selectionBackground` from `#39342c80` to `#5a524c80` for better visibility.
+  - Adjusted `statusBar.debuggingBackground` from `#80503f` to `#947a6d` for a softer tone.
+  - Adjusted Markdown heading colors from `#bbce91` to `#a4c2a9` for a calmer look.
+  - Added `progressBar.background` (`#5b7454`) to unify UI accents.
+  - Removed `button.hoverBackground` to use the default hover effect.
+
 ## [0.0.4] - 2026-08-25
 
 - Added **Edo Nezu Icon Theme** and **Edo Nezu Material Icon Theme**.
