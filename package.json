@@ -3,7 +3,7 @@
   "displayName": "Edo Nezu Theme",
   "description": "Traditional Japanese color and icon theme. Chic, eye-friendly, and good for work.",
   "galleryBanner": {
-    "color": "#dbced1",
+    "color": "#fbf8f5",
     "theme": "light"
   },
   "keywords": [
@@ -22,7 +22,7 @@
     "traditional",
     "sakura"
   ],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "arukumo",
   "icon": "images/icon.png",
   "license": "MIT",

@@ -7,7 +7,7 @@
     // --- 1. 背景階層（憲法黒茶ベース） ---
     // #1a1306: 憲法黒茶（基準エディタ背景）
     // #1e1607: 涅色/憲法染（サイドバー / タブ / 入力欄）
-    // #150e04: 暗黒色/濡羽黒（アクティビティバー / タブ隙間）
+    // #150e04: 暗黒色/濡羽黒（アクティビティバー / タブ隙間 / パネル）
     // #110c03: 漆黒（タイトルバー）
     // #2a1f0a: 黒褐（選択ハイライト背景 / ホバー）
     //
@@ -32,7 +32,11 @@
     // #947a6d: 胡桃色（デバッグ中ステータスバー）
     // #d38e8e: 薄紅梅/撫子色（Git削除 / 正規表現）
     // #df8a96: 甚三紅（エラー / Git競合）
+    //
+    // --- 5. アルファ値・透過 -----
+    // #00000000: 完全透明（ボーダー非表示など）
     // =========================================================================
+    // --- 文字色 ---
     "foreground": "#cfcfcc",
     "editor.foreground": "#cfcfcc",
     "statusBar.foreground": "#cfcfcc",
@@ -46,13 +50,13 @@
     "tab.unfocusedInactiveBackground": "#110c03",
     "activityBar.background": "#150e04",
     "activityBarBadge.background": "#5b7454",
-    "editorGroupHeader.tabsBackground": "#150e04",
     "titleBar.activeBackground": "#110c03",
     "statusBar.background": "#1e1607",
     "statusBar.noFolderBackground": "#1e1607",
     "statusBar.debuggingBackground": "#947a6d",
     "statusBarItem.remoteBackground": "#5b7454",
     "progressBar.background": "#5b7454",
+    "panel.background": "#150e04",
 
     // --- ハイライト & カーソル行 ---
     "editor.selectionBackground": "#f5f2eb38",
@@ -141,7 +145,6 @@
     "editorGutter.deletedBackground": "#d38e8e",
 
     // --- ターミナル ---
-    "terminal.background": "#1a1306",
     "terminal.foreground": "#cfcfcc",
     "terminal.selectionBackground": "#5a524c80",
     "terminalCursor.foreground": "#cfcfcc",
@@ -167,10 +170,6 @@
     "terminalCommandDecoration.successBackground": "#88a37b",
     "terminalCommandDecoration.errorBackground": "#df8a96",
 
-    // --- ターミナルのスクロールバー背後（Overview Ruler） ---
-    "terminalOverviewRuler.cursorForeground": "#cfcfcc40",
-    "terminalOverviewRuler.findMatchForeground": "#d6b57580",
-
     // --- ボタン ---
     "button.background": "#5b7454",
     "button.foreground": "#fffffc",
@@ -184,6 +183,7 @@
     "sideBar.border": "#39342c",
     "panel.border": "#39342c",
     "terminal.border": "#39342c",
+    "editorGroupHeader.tabsBackground": "#150e04",
     "editorGroupHeader.noTabsBackground": "#150e04",
     "editorGroupHeader.border": "#39342c",
 

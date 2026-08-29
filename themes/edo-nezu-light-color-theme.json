@@ -4,40 +4,52 @@
     // =========================================================================
     // 江戸鼠ライトテーマ 使用色パレット（Edo Nezu Light Palette）
     // =========================================================================
-    // --- 1. 背景階層（鳥の子色・白練・灰桜ベース） ---
+    // --- 1. 背景階層（鳥の子色・白練ベース） ---
     // #fbf8f5: 鳥の子色（基準エディタ背景 / アクティブタブ）
-    // #f7f5f2: 白練（サイドバー / タイトルバー / ステータスバー）
-    // #ede9e3: 薄鈍/利休白茶（非アクティブタブ / 選択・ホバー背景）
-    // #eeeaec: 灰桜（ターミナル背景）
+    // #f7f5f2: 白練（サイドバー / タイトルバー / ステータスバー / エディタグループヘッダ）
+    // #ede9e3: 薄鈍/利休白茶（非アクティブタブ / メニュー選択 / サジェスト選択）
+    // #f2eee8: 生成り（非アクティブ非フォーカスタブ）
+    // #eeeaec: 灰桜（パネル背景）
     // #524e4d: 消炭色（アクティビティバー背景）
-    // #ffffff: 純白（入力欄 / ドロップダウン背景）
+    // #fffffc: 胡粉色（入力欄 / ドロップダウン背景 / 一部リスト選択）
     //
     // --- 2. 構文・シンタックス主要色（明背景向け伝統色） ---
-    // #1a1306: 憲法黒茶（本文 / 実データ値 / 演算子）
-    // #004898: 瑠璃色（予約語 / 構文骨格 / HTML・XMLタグ名）
+    // #1a1306: 憲法黒茶（本文 / 実データ値 / 演算子 / HTML・XML属性値）
+    // #004898: 瑠璃色（予約語 / 構文骨格 / HTML・XMLタグ名 / サジェスト強調）
     // #03512e: 千歳緑（コメント / 引用 / リンク）
     // #aa2f2e: 紅樺色（キー / 属性名 / 文字列リテラル）
     // #006e9d: 青黛（数値 / 定数）
     // #7f2517: 海老茶（Markdown 見出し / 太字 / リスト記号）
-    // #ce6718: 飴色（CSSクラス / セレクタ）
+    // #ce6718: 飴色（CSSクラス / セレクタ / 検索ハイライト）
     //
     // --- 3. UIテキスト・境界・補助色 ---
-    // #1a1306: 憲法黒茶（主テキスト / アクティブタブ文字）
-    // #524e4d: 消炭色（UI前景色）
-    // #78716c: 灰茶/薄墨色（非アクティブ文字 / プレースホルダー）
-    // #a8a29e: 素鼠（行番号 / ガイド線）
-    // #dad6d0: 利休鼠/薄灰（境界線 / 枠線 / セパレータ）
+    // #1a1306: 憲法黒茶（主テキスト / アクティブタブ文字 / 入力文字）
+    // #524e4d: 消炭色（UI前景色 / ステータスバー文字 / サッシュホバー境界）
+    // #78716c: 灰茶/薄墨色（非アクティブ文字 / プレースホルダー / ピッカー見出し）
+    // #a8a29e: 素鼠（行番号 / ガイド線 / Git無視 / 入力プレースホルダー）
+    // #dad6d0: 利休鼠/薄灰（境界線 / 枠線 / セパレータ / 各種ボーダー）
     // #8c877d: 薄銀鼠（タグ記号 < > /）
+    // #4d5141: 鶯茶（Markdown引用ボーダー）
     //
-    // --- 4. 状態・アクセント（Git / システム） ---
-    // #03512e: 千歳緑（ボタン背景 / リンク / Git追加）
-    // #5b7454: 苔色（バッジ / リモート / プログレスバー / フォーカス枠）
+    // --- 4. 状態・アクセント（Git / システム / ターミナル） ---
+    // #5d7d6b: 柳鼠（ボタン背景 / バッジ / リモート / プログレスバー / フォーカス枠 / リンクホバー / ターミナル装飾成功）
+    // #5b7454: 苔色（Git追加 / ガター追加バー / Git未追跡）
     // #9e6b28: 朽葉色（Git変更 / ガター変更バー）
-    // #aa2f2e: 紅樺色（Git削除）
-    // #d7003a: 紅色（構文エラー / Git競合）
+    // #aa2f2e: 紅樺色（Git削除 / ターミナル赤・明赤）
+    // #007b43: 常磐色（ターミナル緑・明緑）
+    // #ebb200: 黄金色（ターミナル黄）
+    // #ffdd00: 鬱金色（ターミナル明黄）
+    // #006e9d: 青黛（ターミナル青）
+    // #004898: 瑠璃色（Gitリネーム・サブモジュール / ターミナル明青）
+    // #d7003a: 紅色（構文エラー / Git競合 / ターミナルマゼンタ・明マゼンタ・装飾エラー）
+    // #007083: 納戸色（ターミナルシアン・明シアン）
     // #6967ab: 竜胆色（正規表現）
-    // #d4d0c8: 薄鈍（デバッグ中ステータスバー）
+    // #dbced1: 灰桜（デバッグ中ステータスバー）
+    //
+    // --- 5. アルファ値・透過 -----
+    // #00000000: 完全透明（ボーダー非表示など）
     // =========================================================================
+    // --- 文字色 ---
     "foreground": "#524e4d",
     "editor.foreground": "#1a1306",
     "statusBar.foreground": "#524e4d",
@@ -50,14 +62,21 @@
     "tab.inactiveBackground": "#ede9e3",
     "tab.unfocusedInactiveBackground": "#f2eee8",
     "activityBar.background": "#524e4d",
-    "activityBarBadge.background": "#5b7454",
-    "editorGroupHeader.tabsBackground": "#ede9e3",
+    "activityBar.activeBackground": "#fffffc33",
+    "activityBarBadge.background": "#5d7d6b",
     "titleBar.activeBackground": "#f7f5f2",
     "statusBar.background": "#f7f5f2",
     "statusBar.noFolderBackground": "#f7f5f2",
-    "statusBar.debuggingBackground": "#d4d0c8",
-    "statusBarItem.remoteBackground": "#5b7454",
-    "progressBar.background": "#5b7454",
+    "statusBar.debuggingBackground": "#dbced1",
+    "statusBarItem.remoteBackground": "#5d7d6b",
+    "progressBar.background": "#5d7d6b",
+    "panel.background": "#eeeaec",
+
+    // Modern UI ---
+    "modernActivityBar.activeForeground": "#fbf8f5",
+    "modernActivityBar.hoverForeground": "#fbf8f5",
+    "modernActivityBar.activeBackground": "#524e4d80",
+    "modernActivityBar.hoverBackground": "#524e4d40",
 
     // --- ハイライト & カーソル行 ---
     "editor.selectionBackground": "#241a0818",
@@ -87,7 +106,7 @@
     "tab.inactiveForeground": "#78716c",
 
     // --- UI（メニュー / 入力欄 / ホバー / サジェスト） ---
-    "focusBorder": "#5b7454",
+    "focusBorder": "#5d7d6b",
     "menu.background": "#f7f5f2",
     "menu.foreground": "#1a1306",
     "menu.selectionBackground": "#ede9e3",
@@ -95,14 +114,14 @@
     "menu.separatorBackground": "#e2ded9",
     "menu.border": "#dad6d0",
 
-    "input.background": "#ffffff",
+    "input.background": "#fffffc",
     "input.foreground": "#1a1306",
     "input.placeholderForeground": "#a8a29e",
     "input.border": "#dad6d0",
-    "inputOption.activeBackground": "#5b745480",
-    "inputOption.activeBorder": "#5b7454",
+    "inputOption.activeBackground": "#5d7d6b80",
+    "inputOption.activeBorder": "#5d7d6b",
 
-    "dropdown.background": "#ffffff",
+    "dropdown.background": "#fffffc",
     "dropdown.foreground": "#1a1306",
     "dropdown.border": "#dad6d0",
 
@@ -126,15 +145,15 @@
     "pickerGroup.border": "#dad6d0",
     "pickerGroup.foreground": "#78716c",
 
-    "list.hoverBackground": "#ede9e380",
-    "list.activeSelectionBackground": "#ede9e3",
+    "list.hoverBackground": "#fffffc80",
+    "list.activeSelectionBackground": "#f7f5f2",
     "list.activeSelectionForeground": "#1a1306",
-    "list.inactiveSelectionBackground": "#f2eee8",
+    "list.inactiveSelectionBackground": "#fffffc",
 
     // --- Git ステータス & ガター差分 ---
     "gitDecoration.modifiedResourceForeground": "#9e6b28",
-    "gitDecoration.untrackedResourceForeground": "#03512e",
-    "gitDecoration.addedResourceForeground": "#03512e",
+    "gitDecoration.untrackedResourceForeground": "#5b7454",
+    "gitDecoration.addedResourceForeground": "#5b7454",
     "gitDecoration.deletedResourceForeground": "#aa2f2e",
     "gitDecoration.renamedResourceForeground": "#004898",
     "gitDecoration.stageModifiedResourceForeground": "#9e6b28",
@@ -143,40 +162,37 @@
     "gitDecoration.conflictingResourceForeground": "#d7003a",
     "gitDecoration.submoduleResourceForeground": "#004898",
     "editorGutter.modifiedBackground": "#9e6b28",
-    "editorGutter.addedBackground": "#03512e",
+    "editorGutter.addedBackground": "#5b7454",
     "editorGutter.deletedBackground": "#aa2f2e",
 
     // --- ターミナル ---
-    "terminal.background": "#eeeaec",
     "terminal.foreground": "#1a1306",
     "terminal.selectionBackground": "#524e4d25",
     "terminalCursor.foreground": "#1a1306",
     "terminal.ansiBlack": "#1a1306",
     "terminal.ansiRed": "#aa2f2e",
-    "terminal.ansiGreen": "#03512e",
-    "terminal.ansiYellow": "#ce6718",
-    "terminal.ansiBlue": "#004898",
-    "terminal.ansiMagenta": "#6967ab",
-    "terminal.ansiCyan": "#006e9d",
+    "terminal.ansiGreen": "#007b43",
+    "terminal.ansiYellow": "#ebb200",
+    "terminal.ansiBlue": "#006e9d",
+    "terminal.ansiMagenta": "#d7003a",
+    "terminal.ansiCyan": "#007083",
     "terminal.ansiWhite": "#fbf8f5",
     "terminal.ansiBrightBlack": "#78716c",
-    "terminal.ansiBrightRed": "#c2413e",
-    "terminal.ansiBrightGreen": "#126b42",
-    "terminal.ansiBrightYellow": "#db7a2c",
-    "terminal.ansiBrightBlue": "#1762b8",
-    "terminal.ansiBrightMagenta": "#7e7cb8",
-    "terminal.ansiBrightCyan": "#1a85b8",
-    "terminal.ansiBrightWhite": "#ffffff",
+    "terminal.ansiBrightRed": "#aa2f2e",
+    "terminal.ansiBrightGreen": "#007b43",
+    "terminal.ansiBrightYellow": "#ffdd00",
+    "terminal.ansiBrightBlue": "#004898",
+    "terminal.ansiBrightMagenta": "#d7003a",
+    "terminal.ansiBrightCyan": "#007083",
+    "terminal.ansiBrightWhite": "#fffffc",
 
+    // ターミナル装飾 & ルーラー
     "terminalCommandDecoration.defaultBackground": "#78716c80",
-    "terminalCommandDecoration.successBackground": "#03512e",
+    "terminalCommandDecoration.successBackground": "#5d7d6b",
     "terminalCommandDecoration.errorBackground": "#d7003a",
 
-    "terminalOverviewRuler.cursorForeground": "#1a130640",
-    "terminalOverviewRuler.findMatchForeground": "#ce671880",
-
     // --- ボタン ---
-    "button.background": "#03512e",
+    "button.background": "#5d7d6b",
     "button.foreground": "#fbf8f5",
     "button.secondaryBackground": "#ede9e3",
     "button.secondaryForeground": "#1a1306",
@@ -188,12 +204,13 @@
     "sideBar.border": "#dad6d0",
     "panel.border": "#dad6d0",
     "terminal.border": "#00000000",
-    "editorGroupHeader.noTabsBackground": "#ede9e3",
+    "editorGroupHeader.tabsBackground": "#f7f5f2",
+    "editorGroupHeader.noTabsBackground": "#f7f5f2",
     "editorGroupHeader.border": "#dad6d0",
 
     // --- リンクテキスト ---
     "textLink.foreground": "#03512e",
-    "textLink.activeForeground": "#009b78",
+    "textLink.activeForeground": "#5d7d6b",
 
     // --- 引用ブロック ---
     "textBlockQuote.border": "#4d5141",

@@ -26,15 +26,15 @@ Color palettes and contrast balances are continually refined through daily codin
 
 ### Color Themes
 
-- **Edo Nezu Dark**
-- **Edo Nezu Light**
+- **Edo Nezu Dark**: designed for coders
+- **Edo Nezu Light**: designed for writers
 
-> 💡 Preview themes in your browser at [VS Code Themes](https://vscodethemes.com/?q=Edo+Nezu+Theme).
+> 💡 Preview themes in your browser at [VS Code Themes > Edo Nezu Theme](https://vscodethemes.com/e/arukumo.edo-nezu-theme/edo-nezu-light).
 
 ### File Icon Themes
 
-- **Edo Nezu Icon Theme**
-- **Edo Nezu Material Icon Theme**
+- **Edo Nezu Icon Theme**: ideal for dark themes
+- **Edo Nezu Material Icon Theme**: ideal for light themes
 
 ## Screenshots
 
@@ -75,6 +75,28 @@ Or configure manually in your user `settings.json` (or `.vscode/settings.json` i
 {
   "workbench.colorTheme": "Edo Nezu Light",
   "workbench.iconTheme": "edo-nezu-material-icon-theme"
+}
+```
+
+## Tips & Customization
+
+### 1. Display Color Settings
+
+As this theme uses delicate intermediate colors and tones, appearance may look different on some monitors. If needed, adjusting your monitor's color profile or RGB settings could help resolve this.  
+(e.g. My laptop and monitor had different colors, so I fixed it via monitor RGB settings.)
+
+### 2. VS Code Color Settings
+
+If you prefer previous colors from an older version, check [CHANGELOG.md](CHANGELOG.md) for past color codes and keys.  
+See: [VS Code docs > Theme Color](https://code.visualstudio.com/api/references/theme-color)
+
+```json
+"workbench.colorCustomizations": {
+  "[Edo Nezu Light]": {
+    // Override or restore specific UI colors
+    "editor.background": "#fbf8f5",
+    "statusBar.background": "#f7f5f2"
+  }
 }
 ```
 
