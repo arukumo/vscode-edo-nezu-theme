@@ -4,6 +4,26 @@ All notable changes to the "edo-nezu-theme" extension will be documented in this
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.1.1] - 2026-08-29
+
+- Refined UI and syntax colors across themes:
+  - **Edo Nezu Light**:
+    - Added Modern Activity Bar styling (`modernActivityBar.*`).
+    - Added `panel.background` (`#eeeaec`) to unify background colors across Problems, Output, Debug Console, and Terminal panels.
+    - Adjusted `input.background` and `dropdown.background` from `#ffffff` to `#fffffc` to soften pure white glare.
+    - Adjusted list hover and selection colors (`list.hoverBackground`, `list.activeSelectionBackground`, `list.inactiveSelectionBackground`).
+    - Adjusted primary UI accents (`button.background`, `activityBarBadge.background`, `focusBorder`, `progressBar.background`, etc.) from `#5b7454` / `#03512e` to `#5d7d6b`.
+    - Adjusted Git untracked/added status colors from `#03512e` to `#5b7454`.
+    - Adjusted `statusBar.debuggingBackground` from `#d4d0c8` to `#dbced1`.
+    - Adjusted `textLink.activeForeground` from `#009b78` to `#5d7d6b`.
+    - Refined terminal ANSI colors and command decoration highlights.
+  - **Edo Nezu Dark**:
+    - Added `panel.background` (`#150e04`) to unify background colors across Problems, Output, Debug Console, and Terminal panels.
+  - **Edo Nezu Dark & Light**:
+    - Removed `terminal.background` in favor of `panel.background`.
+    - Removed `terminalOverviewRuler.*` configurations to fallback to default behavior.
+- Updated `README.md` with a new Tips & Customization section for how to adjust colors.
+
 ## [0.1.0] - 2026-08-28
 
 - Added **Edo Nezu Light** theme, a light variant based on `Edo Nezu Dark` with adjusted color tones.
