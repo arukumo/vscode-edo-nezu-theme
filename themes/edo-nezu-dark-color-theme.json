@@ -13,11 +13,11 @@
     //
     // --- 2. 構文・シンタックス主要色 ---
     // #cfcfcc: 白灰（本文 / データ実値 / 演算子）
-    // #9dd4cb: 青磁（予約語 / 構文骨格 / HTML・XMLタグ名）
-    // #88a37b: 老竹（コメント / 引用 / リンク）
-    // #d3aeb4: 牡丹鼠（キー / 属性名 / プログラミング言語文字列）
+    // #8fbcbb: 青磁（予約語 / 構文骨格 / HTML・XMLタグ名）
+    // #9aaf9a: 柳鼠（コメント / 引用 / リンク）
+    // #d4aca1: 薄柿（キー / 属性名 / プログラミング言語文字列）
     // #b5c7a3: 裏柳（数値 / 定数）
-    // #a4c2a9: 裏葉色（Markdown 見出し / 太字 / リスト記号）
+    // #9aaf9a: 柳鼠（Markdown 見出し / 太字 / リスト記号）
     // #d6b575: 黄朽葉（CSSクラス / セレクタ / Git変更）
     //
     // --- 3. UIテキスト・境界・補助色 ---
@@ -28,7 +28,7 @@
     // #39342c: 黒鳶/暗黒茶（境界線 / 枠線 / セパレータ）
     //
     // --- 4. 状態・アクセント（Git / システム） ---
-    // #5b7454: 苔色/千歳緑（ボタン / バッジ / リモート / 引用ボーダー）
+    // #5b7454: 苔色（ボタン / バッジ / リモート / 引用ボーダー）
     // #947a6d: 胡桃色（デバッグ中ステータスバー）
     // #d38e8e: 薄紅梅/撫子色（Git削除 / 正規表現）
     // #df8a96: 甚三紅（エラー / Git競合）
@@ -114,8 +114,8 @@
     "editorSuggestWidget.border": "#39342c",
     "editorSuggestWidget.selectedBackground": "#2a1f0a",
     "editorSuggestWidget.selectedForeground": "#fffffc",
-    "editorSuggestWidget.highlightForeground": "#9dd4cb",
-    "editorSuggestWidget.focusHighlightForeground": "#9dd4cb",
+    "editorSuggestWidget.highlightForeground": "#8fbcbb",
+    "editorSuggestWidget.focusHighlightForeground": "#8fbcbb",
 
     "quickInput.background": "#1e1607",
     "quickInput.foreground": "#cfcfcc",
@@ -131,17 +131,17 @@
 
     // --- Git ステータス & ガター差分 ---
     "gitDecoration.modifiedResourceForeground": "#d6b575",
-    "gitDecoration.untrackedResourceForeground": "#88a37b",
-    "gitDecoration.addedResourceForeground": "#88a37b",
+    "gitDecoration.untrackedResourceForeground": "#9aaf9a",
+    "gitDecoration.addedResourceForeground": "#9aaf9a",
     "gitDecoration.deletedResourceForeground": "#d38e8e",
-    "gitDecoration.renamedResourceForeground": "#9dd4cb",
+    "gitDecoration.renamedResourceForeground": "#8fbcbb",
     "gitDecoration.stageModifiedResourceForeground": "#d6b575",
     "gitDecoration.stageDeletedResourceForeground": "#d38e8e",
     "gitDecoration.ignoredResourceForeground": "#6b625b",
     "gitDecoration.conflictingResourceForeground": "#df8a96",
-    "gitDecoration.submoduleResourceForeground": "#9dd4cb",
+    "gitDecoration.submoduleResourceForeground": "#8fbcbb",
     "editorGutter.modifiedBackground": "#d6b575",
-    "editorGutter.addedBackground": "#88a37b",
+    "editorGutter.addedBackground": "#9aaf9a",
     "editorGutter.deletedBackground": "#d38e8e",
 
     // --- ターミナル ---
@@ -150,24 +150,24 @@
     "terminalCursor.foreground": "#cfcfcc",
     "terminal.ansiBlack": "#201707",
     "terminal.ansiRed": "#d38e8e",
-    "terminal.ansiGreen": "#88a37b",
+    "terminal.ansiGreen": "#9aaf9a",
     "terminal.ansiYellow": "#d6b575",
-    "terminal.ansiBlue": "#9dd4cb",
-    "terminal.ansiMagenta": "#d3aeb4",
-    "terminal.ansiCyan": "#9dd4cb",
+    "terminal.ansiBlue": "#8fbcbb",
+    "terminal.ansiMagenta": "#d4aca1",
+    "terminal.ansiCyan": "#8fbcbb",
     "terminal.ansiWhite": "#cfcfcc",
     "terminal.ansiBrightBlack": "#6b625b",
     "terminal.ansiBrightRed": "#df9f9f",
     "terminal.ansiBrightGreen": "#a2be94",
     "terminal.ansiBrightYellow": "#e2c98f",
-    "terminal.ansiBrightBlue": "#9dd4cb",
+    "terminal.ansiBrightBlue": "#8fbcbb",
     "terminal.ansiBrightMagenta": "#dfbec4",
-    "terminal.ansiBrightCyan": "#9dd4cb",
+    "terminal.ansiBrightCyan": "#8fbcbb",
     "terminal.ansiBrightWhite": "#f5f2eb",
 
     // --- ターミナル コマンド実行マーク ---
     "terminalCommandDecoration.defaultBackground": "#8c877d80",
-    "terminalCommandDecoration.successBackground": "#88a37b",
+    "terminalCommandDecoration.successBackground": "#9aaf9a",
     "terminalCommandDecoration.errorBackground": "#df8a96",
 
     // --- ボタン ---
@@ -188,11 +188,11 @@
     "editorGroupHeader.border": "#39342c",
 
     // --- リンクテキスト ---
-    "textLink.foreground": "#88a37b",
-    "textLink.activeForeground": "#9dd4cb",
+    "textLink.foreground": "#9aaf9a",
+    "textLink.activeForeground": "#b5c7a3",
 
     // --- 引用ブロック（Markdown Blockquote） ---
-    "textBlockQuote.border": "#5b7454", // 苔色
+    "textBlockQuote.border": "#5b7454",
     "textBlockQuote.background": "#1e160780"
   },
   "tokenColors": [
@@ -256,7 +256,7 @@
         "source.coffee.embedded",
         "support.function.git-rebase"
       ],
-      "settings": { "foreground": "#9dd4cb" } // 青磁
+      "settings": { "foreground": "#8fbcbb" }
     },
 
     // --- コメント・引用 ---
@@ -267,7 +267,7 @@
         "punctuation.definition.comment",
         "punctuation.definition.quote.begin.markdown"
       ],
-      "settings": { "foreground": "#88a37b" } // 老竹
+      "settings": { "foreground": "#9aaf9a" }
     },
 
     // --- 一般文字列リテラル / データキー / 属性名 ---
@@ -297,7 +297,7 @@
         "punctuation.support.type.property-name.yaml",
         "meta.structure.dictionary.key.python"
       ],
-      "settings": { "foreground": "#d3aeb4" } // 牡丹鼠
+      "settings": { "foreground": "#d4aca1" }
     },
 
     // --- JSON / YAML / HTML・XML 属性値（設定値・実データを本文色に上書き） ---
@@ -318,7 +318,7 @@
         "punctuation.definition.string.begin.xml",
         "punctuation.definition.string.end.xml"
       ],
-      "settings": { "foreground": "#cfcfcc" } // 白灰
+      "settings": { "foreground": "#cfcfcc" }
     },
 
     // --- 数値・定数 ---
@@ -334,7 +334,7 @@
         "constant.sha.git-rebase",
         "markup.inserted"
       ],
-      "settings": { "foreground": "#b5c7a3" } // 裏柳
+      "settings": { "foreground": "#b5c7a3" }
     },
 
     // --- Markdown 太字・見出し・リスト記号 ---
@@ -346,7 +346,7 @@
         "punctuation.definition.list.begin.markdown",
         "markup.list.numbered.bullet.markdown"
       ],
-      "settings": { "foreground": "#a4c2a9" } // 裏葉色
+      "settings": { "foreground": "#9aaf9a" }
     },
 
     // --- CSSクラス / タグセレクタ ---
@@ -364,7 +364,7 @@
         "entity.other.attribute-name.scss",
         "source.css entity.other.attribute-name.class"
       ],
-      "settings": { "foreground": "#d6b575" } // 黄朽葉
+      "settings": { "foreground": "#d6b575" }
     },
 
     // --- 基本テキスト・演算子 ---
@@ -381,30 +381,30 @@
         "variable.language.wildcard.java",
         "storage.modifier.package.java"
       ],
-      "settings": { "foreground": "#cfcfcc" } // 白灰
+      "settings": { "foreground": "#cfcfcc" }
     },
 
     // --- 特殊構文（正規表現文字列・エラー・タグ記号） ---
     {
       "scope": "string.regexp",
-      "settings": { "foreground": "#d38e8e" } // 撫子
+      "settings": { "foreground": "#d38e8e" }
     },
     {
       "scope": "invalid",
-      "settings": { "foreground": "#df8a96" } // 甚三紅
+      "settings": { "foreground": "#df8a96" }
     },
     {
       "scope": "punctuation.definition.tag",
-      "settings": { "foreground": "#8c877d" } // 薄銀鼠
+      "settings": { "foreground": "#8c877d" }
     }
   ],
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "newOperator": "#cfcfcc",
-    "stringLiteral": "#d3aeb4",
+    "stringLiteral": "#d4aca1",
     "customLiteral": "#cfcfcc",
     "numberLiteral": "#b5c7a3",
-    "property": "#d3aeb4",
-    "attribute": "#d3aeb4"
+    "property": "#d4aca1",
+    "attribute": "#d4aca1"
   }
 }

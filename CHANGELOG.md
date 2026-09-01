@@ -4,6 +4,31 @@ All notable changes to the "edo-nezu-theme" extension will be documented in this
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.1.2] - 2026-09-02
+
+- Refined UI and syntax colors across themes:
+  - **Edo Nezu Dark**:
+    - Adjusted Blue/Cyan tones from `#9dd4cb` to `#8fbcbb` to reduce glare:
+      - Keywords and syntax structure (`keyword`, `storage`, HTML/XML tags)
+      - Suggest widget highlights (`editorSuggestWidget.highlightForeground`, `editorSuggestWidget.focusHighlightForeground`)
+      - Git status (`gitDecoration.renamedResourceForeground`, `gitDecoration.submoduleResourceForeground`)
+      - Terminal ANSI colors (`terminal.ansiBlue`, `terminal.ansiCyan`, `terminal.ansiBrightBlue`, `terminal.ansiBrightCyan`)
+    - Adjusted Magenta/Pink tones from `#d3aeb4` to `#d4aca1` to reduce glare:
+      - Strings, attributes, and data keys (`string`, `entity.other.attribute-name`, JSON/YAML keys)
+      - Terminal ANSI Magenta (`terminal.ansiMagenta`)
+    - Consolidated Green tones from `#88a37b` and `#a4c2a9` to `#9aaf9a` to balance overall color tones with updated Blue/Cyan and Magenta/Pink:
+      - Comments, quotes, and link base colors (`comment`, `textLink.foreground`)
+      - Markdown headings, bold text, and list bullets (`markup.heading`, `markup.bold`, list bullets)
+      - Git diff and status (`gitDecoration.addedResourceForeground`, `gitDecoration.untrackedResourceForeground`, `editorGutter.addedBackground`)
+      - Terminal ANSI Green and command execution success marker (`terminal.ansiGreen`, `terminalCommandDecoration.successBackground`)
+    - Consolidated primary UI accents from `#5d7d6b` to `#5b7454` for a calmer, grounded look:
+      - Buttons (`button.background`)
+      - Focus borders and inputs (`focusBorder`, `inputOption.activeBorder`, `inputOption.activeBackground`)
+      - Activity bar badge (`activityBarBadge.background`)
+      - Progress bar and remote indicator (`progressBar.background`, `statusBarItem.remoteBackground`)
+      - Markdown blockquote border (`textBlockQuote.border`)
+    - Adjusted `textLink.activeForeground` from `#9dd4cb` to `#b5c7a3` for better visibility.
+
 ## [0.1.1] - 2026-08-29
 
 - Refined UI and syntax colors across themes:
