@@ -4,6 +4,11 @@ All notable changes to the "edo-nezu-theme" extension will be documented in this
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.1.3] - 2026-09-03
+
+- **Edo Nezu Material Icon Theme**:
+  - Hid explorer arrows (`hidesExplorerArrows: true`) for a cleaner, minimalist tree view.
+
 ## [0.1.2] - 2026-09-02
 
 - Refined UI and syntax colors across themes:
