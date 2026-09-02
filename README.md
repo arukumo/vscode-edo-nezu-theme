@@ -44,11 +44,23 @@ _Inspired by chalkboards and chalk. Reduced blue tones, eye-friendly dark theme.
 
 ![Edo Nezu Dark](images/edo-nezu-dark.png)
 
+### Edo Nezu Dark & edo-nezu-material-icon-theme
+
+_Dark folder tones bring a calm, tranquil feel._
+
+![Edo Nezu Dark](images/edo-nezu-dark2.png)
+
 ### Edo Nezu Light & edo-nezu-material-icon-theme
 
 _Inspired by Japanese washi paper and sumi ink. A glare-free, highly readable light theme._
 
 ![Edo Nezu Light](images/edo-nezu-light.png)
+
+### Edo Nezu Light & edo-nezu-icon-theme
+
+_Yellow folders add a touch of brilliance._
+
+![Edo Nezu Light](images/edo-nezu-light2.png)
 
 ## Installation & Usage
 
@@ -83,7 +95,7 @@ Or configure manually in your user `settings.json` (or `.vscode/settings.json` i
 ### 1. Display Color Settings
 
 As this theme uses delicate intermediate colors and tones, appearance may look different on some monitors. If needed, adjusting your monitor's color profile or RGB settings could help resolve this.  
-(e.g. My laptop and monitor had different colors, so I fixed it via monitor RGB settings.)
+(e.g. My laptop and external monitor were from the same manufacturer, but had different colors, so I fixed it via monitor RGB settings.)
 
 ### 2. VS Code Color Settings
 
